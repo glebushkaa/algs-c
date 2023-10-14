@@ -1,0 +1,20 @@
+[
+{
+  "directory": "C:/Users/glebm/cprojects/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g -o CMakeFiles\\algs.dir\\src\\algs.c.obj -c C:\\Users\\glebm\\cprojects\\src\\algs.c",
+  "file": "C:/Users/glebm/cprojects/src/algs.c",
+  "output": "CMakeFiles/algs.dir/src/algs.c.obj"
+},
+{
+  "directory": "C:/Users/glebm/cprojects/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g -o CMakeFiles\\algs.dir\\src\\lib\\data-structures\\linked-list.c.obj -c C:\\Users\\glebm\\cprojects\\src\\lib\\data-structures\\linked-list.c",
+  "file": "C:/Users/glebm/cprojects/src/lib/data-structures/linked-list.c",
+  "output": "CMakeFiles/algs.dir/src/lib/data-structures/linked-list.c.obj"
+},
+{
+  "directory": "C:/Users/glebm/cprojects/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe   -g -o CMakeFiles\\algs.dir\\src\\lib\\searches\\search.c.obj -c C:\\Users\\glebm\\cprojects\\src\\lib\\searches\\search.c",
+  "file": "C:/Users/glebm/cprojects/src/lib/searches/search.c",
+  "output": "CMakeFiles/algs.dir/src/lib/searches/search.c.obj"
+}
+]
