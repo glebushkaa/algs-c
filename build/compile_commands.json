@@ -7,20 +7,26 @@
 },
 {
   "directory": "C:/Users/glebm/cprojects/algs/build",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/algs.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\algs.dir\\src\\lib\\data-structures\\linked-list.c.obj -c C:\\Users\\glebm\\cprojects\\algs\\src\\lib\\data-structures\\linked-list.c",
-  "file": "C:/Users/glebm/cprojects/algs/src/lib/data-structures/linked-list.c",
-  "output": "CMakeFiles/algs.dir/src/lib/data-structures/linked-list.c.obj"
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/algs.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\algs.dir\\lib\\data-structures\\linked-list.c.obj -c C:\\Users\\glebm\\cprojects\\algs\\lib\\data-structures\\linked-list.c",
+  "file": "C:/Users/glebm/cprojects/algs/lib/data-structures/linked-list.c",
+  "output": "CMakeFiles/algs.dir/lib/data-structures/linked-list.c.obj"
 },
 {
   "directory": "C:/Users/glebm/cprojects/algs/build",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/algs.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\algs.dir\\src\\lib\\searches\\search.c.obj -c C:\\Users\\glebm\\cprojects\\algs\\src\\lib\\searches\\search.c",
-  "file": "C:/Users/glebm/cprojects/algs/src/lib/searches/search.c",
-  "output": "CMakeFiles/algs.dir/src/lib/searches/search.c.obj"
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/algs.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\algs.dir\\lib\\searches\\search.c.obj -c C:\\Users\\glebm\\cprojects\\algs\\lib\\searches\\search.c",
+  "file": "C:/Users/glebm/cprojects/algs/lib/searches/search.c",
+  "output": "CMakeFiles/algs.dir/lib/searches/search.c.obj"
 },
 {
   "directory": "C:/Users/glebm/cprojects/algs/build",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/algs.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\algs.dir\\src\\lib\\sorts\\sorts.c.obj -c C:\\Users\\glebm\\cprojects\\algs\\src\\lib\\sorts\\sorts.c",
-  "file": "C:/Users/glebm/cprojects/algs/src/lib/sorts/sorts.c",
-  "output": "CMakeFiles/algs.dir/src/lib/sorts/sorts.c.obj"
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/algs.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\algs.dir\\lib\\sorts\\sorts.c.obj -c C:\\Users\\glebm\\cprojects\\algs\\lib\\sorts\\sorts.c",
+  "file": "C:/Users/glebm/cprojects/algs/lib/sorts/sorts.c",
+  "output": "CMakeFiles/algs.dir/lib/sorts/sorts.c.obj"
+},
+{
+  "directory": "C:/Users/glebm/cprojects/algs/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/algs.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\algs.dir\\test\\tests.c.obj -c C:\\Users\\glebm\\cprojects\\algs\\test\\tests.c",
+  "file": "C:/Users/glebm/cprojects/algs/test/tests.c",
+  "output": "CMakeFiles/algs.dir/test/tests.c.obj"
 }
 ]

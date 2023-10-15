@@ -1,6 +1,7 @@
 {
     "cmake.sourceDirectory": "C:/Users/glebm/cprojects/algs",
     "files.associations": {
-        "sorts.h": "c"
+        "sorts.h": "c",
+        "tests.h": "c"
     }
 }

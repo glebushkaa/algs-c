@@ -128,6 +128,78 @@ algs/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/build
 .PHONY : algs/fast
 
+lib/data-structures/linked-list.obj: lib/data-structures/linked-list.c.obj
+.PHONY : lib/data-structures/linked-list.obj
+
+# target to build an object file
+lib/data-structures/linked-list.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/lib/data-structures/linked-list.c.obj
+.PHONY : lib/data-structures/linked-list.c.obj
+
+lib/data-structures/linked-list.i: lib/data-structures/linked-list.c.i
+.PHONY : lib/data-structures/linked-list.i
+
+# target to preprocess a source file
+lib/data-structures/linked-list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/lib/data-structures/linked-list.c.i
+.PHONY : lib/data-structures/linked-list.c.i
+
+lib/data-structures/linked-list.s: lib/data-structures/linked-list.c.s
+.PHONY : lib/data-structures/linked-list.s
+
+# target to generate assembly for a file
+lib/data-structures/linked-list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/lib/data-structures/linked-list.c.s
+.PHONY : lib/data-structures/linked-list.c.s
+
+lib/searches/search.obj: lib/searches/search.c.obj
+.PHONY : lib/searches/search.obj
+
+# target to build an object file
+lib/searches/search.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/lib/searches/search.c.obj
+.PHONY : lib/searches/search.c.obj
+
+lib/searches/search.i: lib/searches/search.c.i
+.PHONY : lib/searches/search.i
+
+# target to preprocess a source file
+lib/searches/search.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/lib/searches/search.c.i
+.PHONY : lib/searches/search.c.i
+
+lib/searches/search.s: lib/searches/search.c.s
+.PHONY : lib/searches/search.s
+
+# target to generate assembly for a file
+lib/searches/search.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/lib/searches/search.c.s
+.PHONY : lib/searches/search.c.s
+
+lib/sorts/sorts.obj: lib/sorts/sorts.c.obj
+.PHONY : lib/sorts/sorts.obj
+
+# target to build an object file
+lib/sorts/sorts.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/lib/sorts/sorts.c.obj
+.PHONY : lib/sorts/sorts.c.obj
+
+lib/sorts/sorts.i: lib/sorts/sorts.c.i
+.PHONY : lib/sorts/sorts.i
+
+# target to preprocess a source file
+lib/sorts/sorts.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/lib/sorts/sorts.c.i
+.PHONY : lib/sorts/sorts.c.i
+
+lib/sorts/sorts.s: lib/sorts/sorts.c.s
+.PHONY : lib/sorts/sorts.s
+
+# target to generate assembly for a file
+lib/sorts/sorts.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/lib/sorts/sorts.c.s
+.PHONY : lib/sorts/sorts.c.s
+
 src/algs.obj: src/algs.c.obj
 .PHONY : src/algs.obj
 
@@ -152,77 +224,29 @@ src/algs.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/algs.c.s
 .PHONY : src/algs.c.s
 
-src/lib/data-structures/linked-list.obj: src/lib/data-structures/linked-list.c.obj
-.PHONY : src/lib/data-structures/linked-list.obj
+test/tests.obj: test/tests.c.obj
+.PHONY : test/tests.obj
 
 # target to build an object file
-src/lib/data-structures/linked-list.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/lib/data-structures/linked-list.c.obj
-.PHONY : src/lib/data-structures/linked-list.c.obj
+test/tests.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/test/tests.c.obj
+.PHONY : test/tests.c.obj
 
-src/lib/data-structures/linked-list.i: src/lib/data-structures/linked-list.c.i
-.PHONY : src/lib/data-structures/linked-list.i
-
-# target to preprocess a source file
-src/lib/data-structures/linked-list.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/lib/data-structures/linked-list.c.i
-.PHONY : src/lib/data-structures/linked-list.c.i
-
-src/lib/data-structures/linked-list.s: src/lib/data-structures/linked-list.c.s
-.PHONY : src/lib/data-structures/linked-list.s
-
-# target to generate assembly for a file
-src/lib/data-structures/linked-list.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/lib/data-structures/linked-list.c.s
-.PHONY : src/lib/data-structures/linked-list.c.s
-
-src/lib/searches/search.obj: src/lib/searches/search.c.obj
-.PHONY : src/lib/searches/search.obj
-
-# target to build an object file
-src/lib/searches/search.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/lib/searches/search.c.obj
-.PHONY : src/lib/searches/search.c.obj
-
-src/lib/searches/search.i: src/lib/searches/search.c.i
-.PHONY : src/lib/searches/search.i
+test/tests.i: test/tests.c.i
+.PHONY : test/tests.i
 
 # target to preprocess a source file
-src/lib/searches/search.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/lib/searches/search.c.i
-.PHONY : src/lib/searches/search.c.i
+test/tests.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/test/tests.c.i
+.PHONY : test/tests.c.i
 
-src/lib/searches/search.s: src/lib/searches/search.c.s
-.PHONY : src/lib/searches/search.s
-
-# target to generate assembly for a file
-src/lib/searches/search.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/lib/searches/search.c.s
-.PHONY : src/lib/searches/search.c.s
-
-src/lib/sorts/sorts.obj: src/lib/sorts/sorts.c.obj
-.PHONY : src/lib/sorts/sorts.obj
-
-# target to build an object file
-src/lib/sorts/sorts.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/lib/sorts/sorts.c.obj
-.PHONY : src/lib/sorts/sorts.c.obj
-
-src/lib/sorts/sorts.i: src/lib/sorts/sorts.c.i
-.PHONY : src/lib/sorts/sorts.i
-
-# target to preprocess a source file
-src/lib/sorts/sorts.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/lib/sorts/sorts.c.i
-.PHONY : src/lib/sorts/sorts.c.i
-
-src/lib/sorts/sorts.s: src/lib/sorts/sorts.c.s
-.PHONY : src/lib/sorts/sorts.s
+test/tests.s: test/tests.c.s
+.PHONY : test/tests.s
 
 # target to generate assembly for a file
-src/lib/sorts/sorts.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/lib/sorts/sorts.c.s
-.PHONY : src/lib/sorts/sorts.c.s
+test/tests.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/test/tests.c.s
+.PHONY : test/tests.c.s
 
 # Help Target
 help:
@@ -233,18 +257,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... algs
+	@echo ... lib/data-structures/linked-list.obj
+	@echo ... lib/data-structures/linked-list.i
+	@echo ... lib/data-structures/linked-list.s
+	@echo ... lib/searches/search.obj
+	@echo ... lib/searches/search.i
+	@echo ... lib/searches/search.s
+	@echo ... lib/sorts/sorts.obj
+	@echo ... lib/sorts/sorts.i
+	@echo ... lib/sorts/sorts.s
 	@echo ... src/algs.obj
 	@echo ... src/algs.i
 	@echo ... src/algs.s
-	@echo ... src/lib/data-structures/linked-list.obj
-	@echo ... src/lib/data-structures/linked-list.i
-	@echo ... src/lib/data-structures/linked-list.s
-	@echo ... src/lib/searches/search.obj
-	@echo ... src/lib/searches/search.i
-	@echo ... src/lib/searches/search.s
-	@echo ... src/lib/sorts/sorts.obj
-	@echo ... src/lib/sorts/sorts.i
-	@echo ... src/lib/sorts/sorts.s
+	@echo ... test/tests.obj
+	@echo ... test/tests.i
+	@echo ... test/tests.s
 .PHONY : help
 
 

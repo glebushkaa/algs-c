@@ -4,9 +4,11 @@ set(CMAKE_C_STANDARD 11)
 set(
     SOURCE_FILES
     src/algs.c 
-    src/lib/data-structures/linked-list.c
-    src/lib/searches/search.c
-    src/lib/sorts/sorts.c
+    lib/data-structures/linked-list.c
+    lib/searches/search.c
+    lib/sorts/sorts.c
+    test/tests.c
 )
-include_directories(src/lib)
+include_directories(lib)
+include_directories(test)
 add_executable(algs ${SOURCE_FILES})
