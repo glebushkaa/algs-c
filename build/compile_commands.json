@@ -1,9 +1,9 @@
 [
 {
   "directory": "C:/Users/glebm/cprojects/algs/build",
-  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/algs.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\algs.dir\\src\\algs.c.obj -c C:\\Users\\glebm\\cprojects\\algs\\src\\algs.c",
-  "file": "C:/Users/glebm/cprojects/algs/src/algs.c",
-  "output": "CMakeFiles/algs.dir/src/algs.c.obj"
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/algs.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\algs.dir\\src\\main.c.obj -c C:\\Users\\glebm\\cprojects\\algs\\src\\main.c",
+  "file": "C:/Users/glebm/cprojects/algs/src/main.c",
+  "output": "CMakeFiles/algs.dir/src/main.c.obj"
 },
 {
   "directory": "C:/Users/glebm/cprojects/algs/build",

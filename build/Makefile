@@ -200,29 +200,29 @@ lib/sorts/sorts.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/lib/sorts/sorts.c.s
 .PHONY : lib/sorts/sorts.c.s
 
-src/algs.obj: src/algs.c.obj
-.PHONY : src/algs.obj
+src/main.obj: src/main.c.obj
+.PHONY : src/main.obj
 
 # target to build an object file
-src/algs.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/algs.c.obj
-.PHONY : src/algs.c.obj
+src/main.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/main.c.obj
+.PHONY : src/main.c.obj
 
-src/algs.i: src/algs.c.i
-.PHONY : src/algs.i
+src/main.i: src/main.c.i
+.PHONY : src/main.i
 
 # target to preprocess a source file
-src/algs.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/algs.c.i
-.PHONY : src/algs.c.i
+src/main.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/main.c.i
+.PHONY : src/main.c.i
 
-src/algs.s: src/algs.c.s
-.PHONY : src/algs.s
+src/main.s: src/main.c.s
+.PHONY : src/main.s
 
 # target to generate assembly for a file
-src/algs.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/algs.c.s
-.PHONY : src/algs.c.s
+src/main.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/main.c.s
+.PHONY : src/main.c.s
 
 test/tests.obj: test/tests.c.obj
 .PHONY : test/tests.obj
@@ -266,9 +266,9 @@ help:
 	@echo ... lib/sorts/sorts.obj
 	@echo ... lib/sorts/sorts.i
 	@echo ... lib/sorts/sorts.s
-	@echo ... src/algs.obj
-	@echo ... src/algs.i
-	@echo ... src/algs.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 	@echo ... test/tests.obj
 	@echo ... test/tests.i
 	@echo ... test/tests.s

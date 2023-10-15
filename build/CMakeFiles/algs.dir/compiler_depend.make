@@ -28,7 +28,7 @@ CMakeFiles/algs.dir/lib/sorts/sorts.c.obj: C:/Users/glebm/cprojects/algs/lib/sor
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h
 
-CMakeFiles/algs.dir/src/algs.c.obj: C:/Users/glebm/cprojects/algs/src/algs.c \
+CMakeFiles/algs.dir/src/main.c.obj: C:/Users/glebm/cprojects/algs/src/main.c \
   C:/Users/glebm/cprojects/algs/test/tests.h \
   C:/MinGW/include/_mingw.h \
   C:/MinGW/include/msvcrtver.h \
@@ -85,7 +85,7 @@ C:/Users/glebm/cprojects/algs/lib/searches/search.h:
 
 C:/Users/glebm/cprojects/algs/lib/sorts/sorts.c:
 
-C:/Users/glebm/cprojects/algs/src/algs.c:
+C:/Users/glebm/cprojects/algs/src/main.c:
 
 C:/Users/glebm/cprojects/algs/test/tests.h:
 

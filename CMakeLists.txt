@@ -3,7 +3,7 @@ project(algs LANGUAGES C)
 set(CMAKE_C_STANDARD 11)
 set(
     SOURCE_FILES
-    src/algs.c 
+    src/main.c 
     lib/data-structures/linked-list.c
     lib/searches/search.c
     lib/sorts/sorts.c

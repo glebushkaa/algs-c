@@ -43,7 +43,7 @@ int get(struct LinkedList *list, int position)
         current_node = current_node->next;
     }
 
-    return -100;
+    return -200;
 }
 
 void print_all(struct LinkedList *list)
