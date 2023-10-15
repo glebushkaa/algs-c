@@ -110,8 +110,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Users/glebm/cprojects/build",
-		"source" : "C:/Users/glebm/cprojects"
+		"build" : "C:/Users/glebm/cprojects/algs/build",
+		"source" : "C:/Users/glebm/cprojects/algs"
 	},
 	"version" : 
 	{

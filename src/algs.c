@@ -2,13 +2,28 @@
 #include <stdlib.h>
 #include "lib/searches/search.h"
 #include "lib/data-structures/linked-list.h"
+#include "lib/sorts/sorts.h"
 
 void test_binary_search();
 void test_linked_list();
+void test_selection_sort();
+void fill_unfiltered_list(int *list, int list_size);
 
 int main()
 {
-    test_linked_list();
+    test_selection_sort();
+}
+
+void test_selection_sort()
+{
+    int list_size = 200;
+    int list[list_size];
+    fill_unfiltered_list(list, list_size);
+    int *new_list = selection_sort(list, list_size);
+    for (int i = 0; list_size > i; i++)
+    {
+        printf("%d, ", new_list[i]);
+    }
 }
 
 void test_binary_search()
@@ -41,4 +56,12 @@ void test_linked_list()
     printf("Result %i\n", result);
 
     print_all(&list);
+}
+
+void fill_unfiltered_list(int *list, int list_size)
+{
+    for (int i = 0; i < list_size; i++)
+    {
+        list[i] = rand();
+    }
 }

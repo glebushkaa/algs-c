@@ -4,7 +4,7 @@
 # compile C with C:/MinGW/bin/gcc.exe
 C_DEFINES = 
 
-C_INCLUDES = 
+C_INCLUDES = @CMakeFiles/algs.dir/includes_C.rsp
 
-C_FLAGS = -g
+C_FLAGS = -g -std=gnu11
 

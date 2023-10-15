@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\glebm\cprojects
+CMAKE_SOURCE_DIR = C:\Users\glebm\cprojects\algs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\glebm\cprojects\build
+CMAKE_BINARY_DIR = C:\Users\glebm\cprojects\algs\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/algs.dir/depend.make
@@ -69,52 +69,71 @@ include CMakeFiles/algs.dir/progress.make
 include CMakeFiles/algs.dir/flags.make
 
 CMakeFiles/algs.dir/src/algs.c.obj: CMakeFiles/algs.dir/flags.make
-CMakeFiles/algs.dir/src/algs.c.obj: C:/Users/glebm/cprojects/src/algs.c
+CMakeFiles/algs.dir/src/algs.c.obj: CMakeFiles/algs.dir/includes_C.rsp
+CMakeFiles/algs.dir/src/algs.c.obj: C:/Users/glebm/cprojects/algs/src/algs.c
 CMakeFiles/algs.dir/src/algs.c.obj: CMakeFiles/algs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\glebm\cprojects\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/algs.dir/src/algs.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/algs.dir/src/algs.c.obj -MF CMakeFiles\algs.dir\src\algs.c.obj.d -o CMakeFiles\algs.dir\src\algs.c.obj -c C:\Users\glebm\cprojects\src\algs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\glebm\cprojects\algs\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/algs.dir/src/algs.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/algs.dir/src/algs.c.obj -MF CMakeFiles\algs.dir\src\algs.c.obj.d -o CMakeFiles\algs.dir\src\algs.c.obj -c C:\Users\glebm\cprojects\algs\src\algs.c
 
 CMakeFiles/algs.dir/src/algs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/algs.dir/src/algs.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\glebm\cprojects\src\algs.c > CMakeFiles\algs.dir\src\algs.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\glebm\cprojects\algs\src\algs.c > CMakeFiles\algs.dir\src\algs.c.i
 
 CMakeFiles/algs.dir/src/algs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/algs.dir/src/algs.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\glebm\cprojects\src\algs.c -o CMakeFiles\algs.dir\src\algs.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\glebm\cprojects\algs\src\algs.c -o CMakeFiles\algs.dir\src\algs.c.s
 
 CMakeFiles/algs.dir/src/lib/data-structures/linked-list.c.obj: CMakeFiles/algs.dir/flags.make
-CMakeFiles/algs.dir/src/lib/data-structures/linked-list.c.obj: C:/Users/glebm/cprojects/src/lib/data-structures/linked-list.c
+CMakeFiles/algs.dir/src/lib/data-structures/linked-list.c.obj: CMakeFiles/algs.dir/includes_C.rsp
+CMakeFiles/algs.dir/src/lib/data-structures/linked-list.c.obj: C:/Users/glebm/cprojects/algs/src/lib/data-structures/linked-list.c
 CMakeFiles/algs.dir/src/lib/data-structures/linked-list.c.obj: CMakeFiles/algs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\glebm\cprojects\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/algs.dir/src/lib/data-structures/linked-list.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/algs.dir/src/lib/data-structures/linked-list.c.obj -MF CMakeFiles\algs.dir\src\lib\data-structures\linked-list.c.obj.d -o CMakeFiles\algs.dir\src\lib\data-structures\linked-list.c.obj -c C:\Users\glebm\cprojects\src\lib\data-structures\linked-list.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\glebm\cprojects\algs\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/algs.dir/src/lib/data-structures/linked-list.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/algs.dir/src/lib/data-structures/linked-list.c.obj -MF CMakeFiles\algs.dir\src\lib\data-structures\linked-list.c.obj.d -o CMakeFiles\algs.dir\src\lib\data-structures\linked-list.c.obj -c C:\Users\glebm\cprojects\algs\src\lib\data-structures\linked-list.c
 
 CMakeFiles/algs.dir/src/lib/data-structures/linked-list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/algs.dir/src/lib/data-structures/linked-list.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\glebm\cprojects\src\lib\data-structures\linked-list.c > CMakeFiles\algs.dir\src\lib\data-structures\linked-list.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\glebm\cprojects\algs\src\lib\data-structures\linked-list.c > CMakeFiles\algs.dir\src\lib\data-structures\linked-list.c.i
 
 CMakeFiles/algs.dir/src/lib/data-structures/linked-list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/algs.dir/src/lib/data-structures/linked-list.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\glebm\cprojects\src\lib\data-structures\linked-list.c -o CMakeFiles\algs.dir\src\lib\data-structures\linked-list.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\glebm\cprojects\algs\src\lib\data-structures\linked-list.c -o CMakeFiles\algs.dir\src\lib\data-structures\linked-list.c.s
 
 CMakeFiles/algs.dir/src/lib/searches/search.c.obj: CMakeFiles/algs.dir/flags.make
-CMakeFiles/algs.dir/src/lib/searches/search.c.obj: C:/Users/glebm/cprojects/src/lib/searches/search.c
+CMakeFiles/algs.dir/src/lib/searches/search.c.obj: CMakeFiles/algs.dir/includes_C.rsp
+CMakeFiles/algs.dir/src/lib/searches/search.c.obj: C:/Users/glebm/cprojects/algs/src/lib/searches/search.c
 CMakeFiles/algs.dir/src/lib/searches/search.c.obj: CMakeFiles/algs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\glebm\cprojects\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/algs.dir/src/lib/searches/search.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/algs.dir/src/lib/searches/search.c.obj -MF CMakeFiles\algs.dir\src\lib\searches\search.c.obj.d -o CMakeFiles\algs.dir\src\lib\searches\search.c.obj -c C:\Users\glebm\cprojects\src\lib\searches\search.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\glebm\cprojects\algs\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/algs.dir/src/lib/searches/search.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/algs.dir/src/lib/searches/search.c.obj -MF CMakeFiles\algs.dir\src\lib\searches\search.c.obj.d -o CMakeFiles\algs.dir\src\lib\searches\search.c.obj -c C:\Users\glebm\cprojects\algs\src\lib\searches\search.c
 
 CMakeFiles/algs.dir/src/lib/searches/search.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/algs.dir/src/lib/searches/search.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\glebm\cprojects\src\lib\searches\search.c > CMakeFiles\algs.dir\src\lib\searches\search.c.i
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\glebm\cprojects\algs\src\lib\searches\search.c > CMakeFiles\algs.dir\src\lib\searches\search.c.i
 
 CMakeFiles/algs.dir/src/lib/searches/search.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/algs.dir/src/lib/searches/search.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\glebm\cprojects\src\lib\searches\search.c -o CMakeFiles\algs.dir\src\lib\searches\search.c.s
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\glebm\cprojects\algs\src\lib\searches\search.c -o CMakeFiles\algs.dir\src\lib\searches\search.c.s
+
+CMakeFiles/algs.dir/src/lib/sorts/sorts.c.obj: CMakeFiles/algs.dir/flags.make
+CMakeFiles/algs.dir/src/lib/sorts/sorts.c.obj: CMakeFiles/algs.dir/includes_C.rsp
+CMakeFiles/algs.dir/src/lib/sorts/sorts.c.obj: C:/Users/glebm/cprojects/algs/src/lib/sorts/sorts.c
+CMakeFiles/algs.dir/src/lib/sorts/sorts.c.obj: CMakeFiles/algs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\glebm\cprojects\algs\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/algs.dir/src/lib/sorts/sorts.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/algs.dir/src/lib/sorts/sorts.c.obj -MF CMakeFiles\algs.dir\src\lib\sorts\sorts.c.obj.d -o CMakeFiles\algs.dir\src\lib\sorts\sorts.c.obj -c C:\Users\glebm\cprojects\algs\src\lib\sorts\sorts.c
+
+CMakeFiles/algs.dir/src/lib/sorts/sorts.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/algs.dir/src/lib/sorts/sorts.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\glebm\cprojects\algs\src\lib\sorts\sorts.c > CMakeFiles\algs.dir\src\lib\sorts\sorts.c.i
+
+CMakeFiles/algs.dir/src/lib/sorts/sorts.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/algs.dir/src/lib/sorts/sorts.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\glebm\cprojects\algs\src\lib\sorts\sorts.c -o CMakeFiles\algs.dir\src\lib\sorts\sorts.c.s
 
 # Object files for target algs
 algs_OBJECTS = \
 "CMakeFiles/algs.dir/src/algs.c.obj" \
 "CMakeFiles/algs.dir/src/lib/data-structures/linked-list.c.obj" \
-"CMakeFiles/algs.dir/src/lib/searches/search.c.obj"
+"CMakeFiles/algs.dir/src/lib/searches/search.c.obj" \
+"CMakeFiles/algs.dir/src/lib/sorts/sorts.c.obj"
 
 # External object files for target algs
 algs_EXTERNAL_OBJECTS =
@@ -122,11 +141,12 @@ algs_EXTERNAL_OBJECTS =
 algs.exe: CMakeFiles/algs.dir/src/algs.c.obj
 algs.exe: CMakeFiles/algs.dir/src/lib/data-structures/linked-list.c.obj
 algs.exe: CMakeFiles/algs.dir/src/lib/searches/search.c.obj
+algs.exe: CMakeFiles/algs.dir/src/lib/sorts/sorts.c.obj
 algs.exe: CMakeFiles/algs.dir/build.make
 algs.exe: CMakeFiles/algs.dir/linkLibs.rsp
 algs.exe: CMakeFiles/algs.dir/objects1.rsp
 algs.exe: CMakeFiles/algs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\glebm\cprojects\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C executable algs.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\glebm\cprojects\algs\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C executable algs.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\algs.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +158,6 @@ CMakeFiles/algs.dir/clean:
 .PHONY : CMakeFiles/algs.dir/clean
 
 CMakeFiles/algs.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\glebm\cprojects C:\Users\glebm\cprojects C:\Users\glebm\cprojects\build C:\Users\glebm\cprojects\build C:\Users\glebm\cprojects\build\CMakeFiles\algs.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\glebm\cprojects\algs C:\Users\glebm\cprojects\algs C:\Users\glebm\cprojects\algs\build C:\Users\glebm\cprojects\algs\build C:\Users\glebm\cprojects\algs\build\CMakeFiles\algs.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/algs.dir/depend
 

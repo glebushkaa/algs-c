@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/algs.dir/src/lib/data-structures/linked-list.c.obj.d"
   "CMakeFiles/algs.dir/src/lib/searches/search.c.obj"
   "CMakeFiles/algs.dir/src/lib/searches/search.c.obj.d"
+  "CMakeFiles/algs.dir/src/lib/sorts/sorts.c.obj"
+  "CMakeFiles/algs.dir/src/lib/sorts/sorts.c.obj.d"
   "algs.exe"
   "algs.exe.manifest"
   "algs.pdb"

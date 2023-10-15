@@ -1,3 +1,3 @@
-C:/Users/glebm/cprojects/build/CMakeFiles/algs.dir
-C:/Users/glebm/cprojects/build/CMakeFiles/edit_cache.dir
-C:/Users/glebm/cprojects/build/CMakeFiles/rebuild_cache.dir
+C:/Users/glebm/cprojects/algs/build/CMakeFiles/algs.dir
+C:/Users/glebm/cprojects/algs/build/CMakeFiles/edit_cache.dir
+C:/Users/glebm/cprojects/algs/build/CMakeFiles/rebuild_cache.dir

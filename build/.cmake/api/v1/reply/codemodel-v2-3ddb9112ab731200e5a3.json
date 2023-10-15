@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "algs::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-algs-Debug-d074e456aabaa00c7de3.json",
+					"jsonFile" : "target-algs-Debug-0cc8fcf4ddf0ba5cd9fc.json",
 					"name" : "algs",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/glebm/cprojects/build",
-		"source" : "C:/Users/glebm/cprojects"
+		"build" : "C:/Users/glebm/cprojects/algs/build",
+		"source" : "C:/Users/glebm/cprojects/algs"
 	},
 	"version" : 
 	{
