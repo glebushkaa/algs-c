@@ -8,6 +8,16 @@
 
 void print_list(int *list, int list_size, char *placeholder);
 
+void test_sum()
+{
+    int list_size = 3;
+    int rand_list[list_size];
+    fill_unfiltered_list(rand_list, list_size);
+    print_list(rand_list, list_size, "Numbers to sum");
+    int result = sum(rand_list, list_size);
+    printf("Result of sum: %i\n", result);
+}
+
 void test_factorial()
 {
     int number; 
