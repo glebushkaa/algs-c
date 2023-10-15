@@ -22,7 +22,7 @@ enum selection_sort_mode ask_for_mode()
         }
 
         default: {
-            printf("Mode you have entered doesn't exist, so we choosed a ascending mode\n");
+            printf("Mode you have entered doesn't exist, so we choosed ascending one\n");
             mode = ASCENDING;
             break;
         }

@@ -25,6 +25,12 @@
 },
 {
   "directory": "C:/Users/glebm/cprojects/algs/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/algs.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\algs.dir\\lib\\recursion\\recursion.c.obj -c C:\\Users\\glebm\\cprojects\\algs\\lib\\recursion\\recursion.c",
+  "file": "C:/Users/glebm/cprojects/algs/lib/recursion/recursion.c",
+  "output": "CMakeFiles/algs.dir/lib/recursion/recursion.c.obj"
+},
+{
+  "directory": "C:/Users/glebm/cprojects/algs/build",
   "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/algs.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\algs.dir\\test\\tests.c.obj -c C:\\Users\\glebm\\cprojects\\algs\\test\\tests.c",
   "file": "C:/Users/glebm/cprojects/algs/test/tests.c",
   "output": "CMakeFiles/algs.dir/test/tests.c.obj"

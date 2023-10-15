@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/algs.dir/lib/data-structures/linked-list.c.obj"
   "CMakeFiles/algs.dir/lib/data-structures/linked-list.c.obj.d"
+  "CMakeFiles/algs.dir/lib/recursion/recursion.c.obj"
+  "CMakeFiles/algs.dir/lib/recursion/recursion.c.obj.d"
   "CMakeFiles/algs.dir/lib/searches/search.c.obj"
   "CMakeFiles/algs.dir/lib/searches/search.c.obj.d"
   "CMakeFiles/algs.dir/lib/sorts/sorts.c.obj"

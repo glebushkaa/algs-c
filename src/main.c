@@ -6,7 +6,8 @@ enum action
     BINARY_SEARCH = 1,
     LINKED_LIST = 2,
     SELECTION_SORT = 3,
-    END_PROGRAMM = 4
+    FACTORIAL = 4,
+    END_PROGRAMM = 100
 };
 
 void print_all_available_actions();
@@ -50,6 +51,11 @@ void handle_action(enum action action)
             break;
         };
 
+        case FACTORIAL: {
+            test_factorial();
+            break;
+        };
+
         default: {
             printf("Unknown action!");
             break;
@@ -60,7 +66,7 @@ void handle_action(enum action action)
 
 void print_all_available_actions()
 {
-    char *actions_list = "1. Test binary search\n2. Test linked list\n3. Test selection sort\n4. End program\n";
+    char *actions_list = "1. Test binary search\n2. Test linked list\n3. Test selection sort\n4. Factorial\n100. End program\n";
     printf(actions_list);
     printf("\n");
 }

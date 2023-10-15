@@ -2,10 +2,27 @@
 #include "C:\Users\glebm\cprojects\algs\lib\data-structures\linked-list.h"
 #include "C:\Users\glebm\cprojects\algs\lib\searches\search.h"
 #include "C:\Users\glebm\cprojects\algs\lib\sorts\sorts.h"
+#include "C:\Users\glebm\cprojects\algs\lib\recursion\recursion.h"
 #include <stdio.h>
 #include <stdlib.h>
 
 void print_list(int *list, int list_size, char *placeholder);
+
+void test_factorial()
+{
+    int number; 
+    printf("Input number for factorial calculation: ");
+    scanf("%i", &number);
+
+    if(number > 20) {
+        printf("Factorial of 20 is the largest value we can calculate\n\n");
+        return;
+    }
+
+    long long result = factorial(number);
+
+    printf("Factorial of %i = %lld\n\n", number, result); 
+}
 
 void test_selection_sort()
 {

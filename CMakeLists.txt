@@ -7,6 +7,7 @@ set(
     lib/data-structures/linked-list.c
     lib/searches/search.c
     lib/sorts/sorts.c
+    lib/recursion/recursion.c
     test/tests.c
 )
 include_directories(lib)

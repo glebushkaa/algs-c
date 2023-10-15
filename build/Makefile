@@ -152,6 +152,30 @@ lib/data-structures/linked-list.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/lib/data-structures/linked-list.c.s
 .PHONY : lib/data-structures/linked-list.c.s
 
+lib/recursion/recursion.obj: lib/recursion/recursion.c.obj
+.PHONY : lib/recursion/recursion.obj
+
+# target to build an object file
+lib/recursion/recursion.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/lib/recursion/recursion.c.obj
+.PHONY : lib/recursion/recursion.c.obj
+
+lib/recursion/recursion.i: lib/recursion/recursion.c.i
+.PHONY : lib/recursion/recursion.i
+
+# target to preprocess a source file
+lib/recursion/recursion.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/lib/recursion/recursion.c.i
+.PHONY : lib/recursion/recursion.c.i
+
+lib/recursion/recursion.s: lib/recursion/recursion.c.s
+.PHONY : lib/recursion/recursion.s
+
+# target to generate assembly for a file
+lib/recursion/recursion.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/lib/recursion/recursion.c.s
+.PHONY : lib/recursion/recursion.c.s
+
 lib/searches/search.obj: lib/searches/search.c.obj
 .PHONY : lib/searches/search.obj
 
@@ -260,6 +284,9 @@ help:
 	@echo ... lib/data-structures/linked-list.obj
 	@echo ... lib/data-structures/linked-list.i
 	@echo ... lib/data-structures/linked-list.s
+	@echo ... lib/recursion/recursion.obj
+	@echo ... lib/recursion/recursion.i
+	@echo ... lib/recursion/recursion.s
 	@echo ... lib/searches/search.obj
 	@echo ... lib/searches/search.i
 	@echo ... lib/searches/search.s
