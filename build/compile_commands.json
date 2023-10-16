@@ -31,8 +31,26 @@
 },
 {
   "directory": "C:/Users/glebm/cprojects/algs/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/algs.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\algs.dir\\lib\\utils\\list.c.obj -c C:\\Users\\glebm\\cprojects\\algs\\lib\\utils\\list.c",
+  "file": "C:/Users/glebm/cprojects/algs/lib/utils/list.c",
+  "output": "CMakeFiles/algs.dir/lib/utils/list.c.obj"
+},
+{
+  "directory": "C:/Users/glebm/cprojects/algs/build",
   "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/algs.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\algs.dir\\test\\tests.c.obj -c C:\\Users\\glebm\\cprojects\\algs\\test\\tests.c",
   "file": "C:/Users/glebm/cprojects/algs/test/tests.c",
   "output": "CMakeFiles/algs.dir/test/tests.c.obj"
+},
+{
+  "directory": "C:/Users/glebm/cprojects/algs/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/algs.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\algs.dir\\src\\states\\main_actions.c.obj -c C:\\Users\\glebm\\cprojects\\algs\\src\\states\\main_actions.c",
+  "file": "C:/Users/glebm/cprojects/algs/src/states/main_actions.c",
+  "output": "CMakeFiles/algs.dir/src/states/main_actions.c.obj"
+},
+{
+  "directory": "C:/Users/glebm/cprojects/algs/build",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/algs.dir/includes_C.rsp -g -std=gnu11 -o CMakeFiles\\algs.dir\\src\\states\\search_actions.c.obj -c C:\\Users\\glebm\\cprojects\\algs\\src\\states\\search_actions.c",
+  "file": "C:/Users/glebm/cprojects/algs/src/states/search_actions.c",
+  "output": "CMakeFiles/algs.dir/src/states/search_actions.c.obj"
 }
 ]

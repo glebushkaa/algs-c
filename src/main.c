@@ -1,4 +1,5 @@
 #include "C:\Users\glebm\cprojects\algs\test\tests.h"
+#include "states\main_actions.h"
 #include <stdio.h>
 
 enum action
@@ -12,91 +13,13 @@ enum action
     END_PROGRAMM = 100
 };
 
-void print_all_available_actions();
-int ask_for_action();
-void handle_action(enum action action);
-
 int main()
 {
-    printf("\n");
+    print_all_main_actions();
     int action;
-
-    print_all_available_actions();
-
-    action = ask_for_action();
-
-    if (action == END_PROGRAMM)
-    {
-        return 0;
-    }
-    handle_action(action);
-
+    ask_for_main_action(&action);
+    int is_programm_finished = handle_main_action(action);
+    if (is_programm_finished) return 0;
+    printf("\n");
     main();
-}
-
-void handle_action(enum action action)
-{
-    switch (action)
-    {
-    case BINARY_SEARCH:
-    {
-        test_binary_search();
-        break;
-    };
-
-    case LINKED_LIST:
-    {
-        test_linked_list();
-        break;
-    };
-
-    case SELECTION_SORT:
-    {
-        test_selection_sort();
-        break;
-    };
-
-    case FACTORIAL:
-    {
-        test_factorial();
-        break;
-    };
-
-    case RECURSION_SUM: {
-        test_sum();
-        break;
-    }
-
-    case QUICK_SORT: {
-        test_quick_sort();
-        break;
-    }
-
-    default:
-    {
-        printf("Unknown action!");
-        break;
-    };
-    }
-    printf("\n");
-}
-
-void print_all_available_actions()
-{
-    printf("1. Test binary search\n");
-    printf("2. Test linked list\n");
-    printf("3. Test selection sort\n");
-    printf("4. Factorial\n");
-    printf("5. Recursion sum\n");
-    printf("6. Quick sort\n");
-    printf("100. End program\n");
-}
-
-int ask_for_action()
-{
-    int action;
-    printf("Input action you want to accomplish: ");
-    scanf("%i", &action);
-    printf("\n");
-    return action;
 }

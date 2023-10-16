@@ -8,7 +8,10 @@ set(
     lib/searches/search.c
     lib/sorts/sorts.c
     lib/recursion/recursion.c
+    lib/utils/list.c
     test/tests.c
+    src/states/main_actions.c
+    src/states/search_actions.c
 )
 include_directories(lib)
 include_directories(test)

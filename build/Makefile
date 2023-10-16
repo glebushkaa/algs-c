@@ -224,6 +224,30 @@ lib/sorts/sorts.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/lib/sorts/sorts.c.s
 .PHONY : lib/sorts/sorts.c.s
 
+lib/utils/list.obj: lib/utils/list.c.obj
+.PHONY : lib/utils/list.obj
+
+# target to build an object file
+lib/utils/list.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/lib/utils/list.c.obj
+.PHONY : lib/utils/list.c.obj
+
+lib/utils/list.i: lib/utils/list.c.i
+.PHONY : lib/utils/list.i
+
+# target to preprocess a source file
+lib/utils/list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/lib/utils/list.c.i
+.PHONY : lib/utils/list.c.i
+
+lib/utils/list.s: lib/utils/list.c.s
+.PHONY : lib/utils/list.s
+
+# target to generate assembly for a file
+lib/utils/list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/lib/utils/list.c.s
+.PHONY : lib/utils/list.c.s
+
 src/main.obj: src/main.c.obj
 .PHONY : src/main.obj
 
@@ -247,6 +271,54 @@ src/main.s: src/main.c.s
 src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/main.c.s
 .PHONY : src/main.c.s
+
+src/states/main_actions.obj: src/states/main_actions.c.obj
+.PHONY : src/states/main_actions.obj
+
+# target to build an object file
+src/states/main_actions.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/states/main_actions.c.obj
+.PHONY : src/states/main_actions.c.obj
+
+src/states/main_actions.i: src/states/main_actions.c.i
+.PHONY : src/states/main_actions.i
+
+# target to preprocess a source file
+src/states/main_actions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/states/main_actions.c.i
+.PHONY : src/states/main_actions.c.i
+
+src/states/main_actions.s: src/states/main_actions.c.s
+.PHONY : src/states/main_actions.s
+
+# target to generate assembly for a file
+src/states/main_actions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/states/main_actions.c.s
+.PHONY : src/states/main_actions.c.s
+
+src/states/search_actions.obj: src/states/search_actions.c.obj
+.PHONY : src/states/search_actions.obj
+
+# target to build an object file
+src/states/search_actions.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/states/search_actions.c.obj
+.PHONY : src/states/search_actions.c.obj
+
+src/states/search_actions.i: src/states/search_actions.c.i
+.PHONY : src/states/search_actions.i
+
+# target to preprocess a source file
+src/states/search_actions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/states/search_actions.c.i
+.PHONY : src/states/search_actions.c.i
+
+src/states/search_actions.s: src/states/search_actions.c.s
+.PHONY : src/states/search_actions.s
+
+# target to generate assembly for a file
+src/states/search_actions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/states/search_actions.c.s
+.PHONY : src/states/search_actions.c.s
 
 test/tests.obj: test/tests.c.obj
 .PHONY : test/tests.obj
@@ -293,9 +365,18 @@ help:
 	@echo ... lib/sorts/sorts.obj
 	@echo ... lib/sorts/sorts.i
 	@echo ... lib/sorts/sorts.s
+	@echo ... lib/utils/list.obj
+	@echo ... lib/utils/list.i
+	@echo ... lib/utils/list.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/states/main_actions.obj
+	@echo ... src/states/main_actions.i
+	@echo ... src/states/main_actions.s
+	@echo ... src/states/search_actions.obj
+	@echo ... src/states/search_actions.i
+	@echo ... src/states/search_actions.s
 	@echo ... test/tests.obj
 	@echo ... test/tests.i
 	@echo ... test/tests.s

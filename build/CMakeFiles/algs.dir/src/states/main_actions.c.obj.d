@@ -1,7 +1,7 @@
-CMakeFiles/algs.dir/src/main.c.obj: \
- C:\Users\glebm\cprojects\algs\src\main.c \
- C:\Users\glebm\cprojects\algs\test\tests.h \
+CMakeFiles/algs.dir/src/states/main_actions.c.obj: \
+ C:\Users\glebm\cprojects\algs\src\states\main_actions.c \
  C:\Users\glebm\cprojects\algs\src\states\main_actions.h \
+ C:\Users\glebm\cprojects\algs\src\states\search_actions.h \
  c:\mingw\include\stdio.h c:\mingw\include\_mingw.h \
  c:\mingw\include\msvcrtver.h c:\mingw\include\w32api.h \
  c:\mingw\include\sdkddkver.h \
