@@ -1,6 +1,7 @@
 #ifndef TESTS
 #define TESTS
 
+void test_quick_sort();
 void test_sum();
 void test_factorial();
 void test_binary_search();

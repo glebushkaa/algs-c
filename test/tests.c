@@ -8,6 +8,17 @@
 
 void print_list(int *list, int list_size, char *placeholder);
 
+void test_quick_sort()
+{
+    int list_size = 20;
+    int rand_list[list_size];
+    fill_unfiltered_list(rand_list, list_size);
+    print_list(rand_list, list_size, "Quick sort");
+    quick_sort(rand_list, 0, list_size-1);
+    print_list(rand_list, list_size, "Quick sort result");
+    free(rand_list);
+}
+
 void test_sum()
 {
     int list_size = 3;
@@ -16,6 +27,7 @@ void test_sum()
     print_list(rand_list, list_size, "Numbers to sum");
     int result = sum(rand_list, list_size);
     printf("Result of sum: %i\n", result);
+    free(rand_list);
 }
 
 void test_factorial()
@@ -43,6 +55,8 @@ void test_selection_sort()
     print_list(list, list_size, "Unfiltered list");
     int *new_list = selection_sort(list, list_size, mode);
     print_list(new_list, list_size, "Filtered list");
+    free(list);
+    free(new_list);
 }
 
 void test_binary_search()

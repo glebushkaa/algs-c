@@ -8,6 +8,7 @@ enum action
     SELECTION_SORT = 3,
     FACTORIAL = 4,
     RECURSION_SUM = 5,
+    QUICK_SORT = 6,
     END_PROGRAMM = 100
 };
 
@@ -66,6 +67,11 @@ void handle_action(enum action action)
         break;
     }
 
+    case QUICK_SORT: {
+        test_quick_sort();
+        break;
+    }
+
     default:
     {
         printf("Unknown action!");
@@ -82,6 +88,7 @@ void print_all_available_actions()
     printf("3. Test selection sort\n");
     printf("4. Factorial\n");
     printf("5. Recursion sum\n");
+    printf("6. Quick sort\n");
     printf("100. End program\n");
 }
 

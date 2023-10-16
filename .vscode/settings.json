@@ -3,6 +3,7 @@
     "files.associations": {
         "sorts.h": "c",
         "tests.h": "c",
-        "recursion.h": "c"
+        "recursion.h": "c",
+        "stdio.h": "c"
     }
 }
