@@ -296,6 +296,78 @@ src/actions/main/main_actions.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/actions/main/main_actions.c.s
 .PHONY : src/actions/main/main_actions.c.s
 
+src/actions/recursion/factorial/factorial_actions.obj: src/actions/recursion/factorial/factorial_actions.c.obj
+.PHONY : src/actions/recursion/factorial/factorial_actions.obj
+
+# target to build an object file
+src/actions/recursion/factorial/factorial_actions.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/actions/recursion/factorial/factorial_actions.c.obj
+.PHONY : src/actions/recursion/factorial/factorial_actions.c.obj
+
+src/actions/recursion/factorial/factorial_actions.i: src/actions/recursion/factorial/factorial_actions.c.i
+.PHONY : src/actions/recursion/factorial/factorial_actions.i
+
+# target to preprocess a source file
+src/actions/recursion/factorial/factorial_actions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/actions/recursion/factorial/factorial_actions.c.i
+.PHONY : src/actions/recursion/factorial/factorial_actions.c.i
+
+src/actions/recursion/factorial/factorial_actions.s: src/actions/recursion/factorial/factorial_actions.c.s
+.PHONY : src/actions/recursion/factorial/factorial_actions.s
+
+# target to generate assembly for a file
+src/actions/recursion/factorial/factorial_actions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/actions/recursion/factorial/factorial_actions.c.s
+.PHONY : src/actions/recursion/factorial/factorial_actions.c.s
+
+src/actions/recursion/recursion_actions.obj: src/actions/recursion/recursion_actions.c.obj
+.PHONY : src/actions/recursion/recursion_actions.obj
+
+# target to build an object file
+src/actions/recursion/recursion_actions.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/actions/recursion/recursion_actions.c.obj
+.PHONY : src/actions/recursion/recursion_actions.c.obj
+
+src/actions/recursion/recursion_actions.i: src/actions/recursion/recursion_actions.c.i
+.PHONY : src/actions/recursion/recursion_actions.i
+
+# target to preprocess a source file
+src/actions/recursion/recursion_actions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/actions/recursion/recursion_actions.c.i
+.PHONY : src/actions/recursion/recursion_actions.c.i
+
+src/actions/recursion/recursion_actions.s: src/actions/recursion/recursion_actions.c.s
+.PHONY : src/actions/recursion/recursion_actions.s
+
+# target to generate assembly for a file
+src/actions/recursion/recursion_actions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/actions/recursion/recursion_actions.c.s
+.PHONY : src/actions/recursion/recursion_actions.c.s
+
+src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.obj: src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.c.obj
+.PHONY : src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.obj
+
+# target to build an object file
+src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.c.obj
+.PHONY : src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.c.obj
+
+src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.i: src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.c.i
+.PHONY : src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.i
+
+# target to preprocess a source file
+src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.c.i
+.PHONY : src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.c.i
+
+src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.s: src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.c.s
+.PHONY : src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.s
+
+# target to generate assembly for a file
+src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.c.s
+.PHONY : src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.c.s
+
 src/actions/search/search_actions.obj: src/actions/search/search_actions.c.obj
 .PHONY : src/actions/search/search_actions.obj
 
@@ -470,6 +542,15 @@ help:
 	@echo ... src/actions/main/main_actions.obj
 	@echo ... src/actions/main/main_actions.i
 	@echo ... src/actions/main/main_actions.s
+	@echo ... src/actions/recursion/factorial/factorial_actions.obj
+	@echo ... src/actions/recursion/factorial/factorial_actions.i
+	@echo ... src/actions/recursion/factorial/factorial_actions.s
+	@echo ... src/actions/recursion/recursion_actions.obj
+	@echo ... src/actions/recursion/recursion_actions.i
+	@echo ... src/actions/recursion/recursion_actions.s
+	@echo ... src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.obj
+	@echo ... src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.i
+	@echo ... src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.s
 	@echo ... src/actions/search/search_actions.obj
 	@echo ... src/actions/search/search_actions.i
 	@echo ... src/actions/search/search_actions.s

@@ -4,34 +4,7 @@
 #include <stdlib.h>
 
 #include "../lib/data-structures/linked-list.h"
-#include "../lib/recursion/recursion.h"
-#include "../lib/searches/search.h"
 #include "../lib/utils/list.h"
-
-void test_sum() {
-    int list_size = 3;
-    int rand_list[list_size];
-    fill_unfiltered_list(rand_list, list_size);
-    print_list(rand_list, list_size, "Numbers to sum");
-    int result = sum(rand_list, list_size);
-    printf("Result of sum: %i\n", result);
-    free(rand_list);
-}
-
-void test_factorial() {
-    int number;
-    printf("Input number for factorial calculation: ");
-    scanf("%i", &number);
-
-    if (number > 20) {
-        printf("Factorial of 20 is the largest value we can calculate\n\n");
-        return;
-    }
-
-    long long result = factorial(number);
-
-    printf("Factorial of %i = %lld\n\n", number, result);
-}
 
 void test_linked_list() {
     struct LinkedList list = create_list();

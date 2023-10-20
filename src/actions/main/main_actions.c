@@ -1,12 +1,34 @@
 #include "main_actions.h"
 
 #include <stdio.h>
+#include <stdbool.h>
 
 #include "../search/search_actions.h"
 #include "../sort/sort_actions.h"
+#include "../recursion/recursion_actions.h"
 
-void perform_search_action();
+enum main_action { SEARCHES = 1, SORTS = 2, RECURSION = 3, END = 100 };
+
+/**
+ * @return is programm running
+ */
+
+bool handle_main_action(enum main_action action);
+
+void ask_for_main_action(int* action);
+void print_all_main_actions();
+
 void perform_sort_action();
+
+void start_main_section() {
+    print_all_main_actions();
+    int action;
+    ask_for_main_action(&action);
+    int is_programm_finished = handle_main_action(action);
+    if (!is_programm_finished) return;
+    printf("\n");
+    start_main_section();
+}
 
 void ask_for_main_action(int *action) {
     printf("Input action you want to accomplish: ");
@@ -24,16 +46,17 @@ void print_all_main_actions() {
 bool handle_main_action(enum main_action action) {
     switch (action) {
         case SEARCHES: {
-            perform_search_action();
+            start_search_section();
             break;
         }
 
         case SORTS: {
-            perform_sort_action();
+            start_sort_section();
             break;
         }
 
         case RECURSION: {
+            start_recursion_section();
             break;
         }
 
@@ -47,30 +70,4 @@ bool handle_main_action(enum main_action action) {
         }
     }
     return true;
-}
-
-void perform_search_action() {
-    printf("You are in search section\n\n");
-    print_all_search_actions();
-    int search_action;
-    ask_for_search_action(&search_action);
-    int is_finished = handle_search_action(search_action);
-    if (!is_finished) {
-        printf("\n");
-        return;
-    }
-    perform_search_action();
-}
-
-void perform_sort_action() {
-    printf("You are in sort section\n\n");
-    print_all_sort_actions();
-    int sort_action;
-    ask_for_sort_action(&sort_action);
-    int is_finished = handle_sort_action(sort_action);
-    if (!is_finished) {
-        printf("\n");
-        return;
-    }
-    perform_sort_action();
 }

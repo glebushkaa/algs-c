@@ -1,11 +1,39 @@
 #include "search_actions.h"
 
 #include <stdio.h>
+#include <stdbool.h>
 
 #include "../lib/searches/search.h"
 #include "../lib/utils/list.h"
 
+enum search_action {
+    BINARY_SEARCH = 1,
+    BACK_SEARCH = 2,
+};
+
+void ask_for_search_action(int* action);
+
+void print_all_search_actions();
+
+/**
+ * @return is search section active
+ */
+bool handle_search_action(enum search_action action);
+
 void test_binary_search();
+
+void start_search_section() {
+    printf("You are in search section\n\n");
+    print_all_search_actions();
+    int search_action;
+    ask_for_search_action(&search_action);
+    int is_finished = handle_search_action(search_action);
+    if (!is_finished) {
+        printf("\n");
+        return;
+    }
+    start_search_section();
+}
 
 void ask_for_search_action(int *action) {
     printf("Input search action you want to accomplish: ");
@@ -45,6 +73,7 @@ void test_binary_search() {
     int searched_element;
     int list_size = sizeof(sorted_list) / sizeof(int);
     print_list(sorted_list, list_size, "Sorted list");
+    printf("\n");
     printf("Input looked value: ");
     scanf("%i", &searched_element);
     printf("\n");

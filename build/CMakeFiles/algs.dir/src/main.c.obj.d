@@ -5,5 +5,4 @@ CMakeFiles/algs.dir/src/main.c.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h \
  c:\mingw\include\sys/types.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\stdarg.h \
- C:\Users\38099\C\ Projects\algs\src\actions/main/main_actions.h \
- c:\mingw\lib\gcc\mingw32\6.3.0\include\stdbool.h
+ C:\Users\38099\C\ Projects\algs\src\actions/main/main_actions.h

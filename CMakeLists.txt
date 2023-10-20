@@ -16,6 +16,9 @@ set(
     src/actions/sort/sort_actions.c
     src/actions/sort/quick/quick_sort_actions.c
     src/actions/sort/selection/selection_sort_actions.c
+    src/actions/recursion/recursion_actions.c
+    src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.c
+    src/actions/recursion/factorial/factorial_actions.c
 )
 
 include_directories(lib)

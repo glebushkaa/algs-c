@@ -66,8 +66,49 @@ CMakeFiles/algs.dir/src/actions/main/main_actions.c.obj: C:/Users/38099/C\ Proje
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdbool.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h \
+  C:/Users/38099/C\ Projects/algs/src/actions/recursion/recursion_actions.h \
   C:/Users/38099/C\ Projects/algs/src/actions/search/search_actions.h \
   C:/Users/38099/C\ Projects/algs/src/actions/sort/sort_actions.h
+
+CMakeFiles/algs.dir/src/actions/recursion/factorial/factorial_actions.c.obj: C:/Users/38099/C\ Projects/algs/src/actions/recursion/factorial/factorial_actions.c \
+  C:/Users/38099/C\ Projects/algs/src/actions/recursion/factorial/factorial_actions.h \
+  C:/MinGW/include/_mingw.h \
+  C:/MinGW/include/msvcrtver.h \
+  C:/MinGW/include/sdkddkver.h \
+  C:/MinGW/include/stdio.h \
+  C:/MinGW/include/stdlib.h \
+  C:/MinGW/include/sys/types.h \
+  C:/MinGW/include/w32api.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h \
+  C:/Users/38099/C\ Projects/algs/lib/recursion/recursion.h
+
+CMakeFiles/algs.dir/src/actions/recursion/recursion_actions.c.obj: C:/Users/38099/C\ Projects/algs/src/actions/recursion/recursion_actions.c \
+  C:/Users/38099/C\ Projects/algs/src/actions/recursion/factorial/factorial_actions.h \
+  C:/Users/38099/C\ Projects/algs/src/actions/recursion/recursion_actions.h \
+  C:/Users/38099/C\ Projects/algs/src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.h \
+  C:/MinGW/include/_mingw.h \
+  C:/MinGW/include/msvcrtver.h \
+  C:/MinGW/include/sdkddkver.h \
+  C:/MinGW/include/stdio.h \
+  C:/MinGW/include/sys/types.h \
+  C:/MinGW/include/w32api.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdbool.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h
+
+CMakeFiles/algs.dir/src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.c.obj: C:/Users/38099/C\ Projects/algs/src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.c \
+  C:/Users/38099/C\ Projects/algs/src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.h \
+  C:/MinGW/include/_mingw.h \
+  C:/MinGW/include/msvcrtver.h \
+  C:/MinGW/include/sdkddkver.h \
+  C:/MinGW/include/stdio.h \
+  C:/MinGW/include/sys/types.h \
+  C:/MinGW/include/w32api.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h \
+  C:/Users/38099/C\ Projects/algs/lib/recursion/recursion.h \
+  C:/Users/38099/C\ Projects/algs/lib/utils/list.h
 
 CMakeFiles/algs.dir/src/actions/search/search_actions.c.obj: C:/Users/38099/C\ Projects/algs/src/actions/search/search_actions.c \
   C:/Users/38099/C\ Projects/algs/src/actions/search/search_actions.h \
@@ -134,7 +175,6 @@ CMakeFiles/algs.dir/src/main.c.obj: C:/Users/38099/C\ Projects/algs/src/main.c \
   C:/MinGW/include/sys/types.h \
   C:/MinGW/include/w32api.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
-  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdbool.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h
 
 CMakeFiles/algs.dir/test/tests.c.obj: C:/Users/38099/C\ Projects/algs/test/tests.c \
@@ -149,8 +189,6 @@ CMakeFiles/algs.dir/test/tests.c.obj: C:/Users/38099/C\ Projects/algs/test/tests
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h \
   C:/Users/38099/C\ Projects/algs/lib/data-structures/linked-list.h \
-  C:/Users/38099/C\ Projects/algs/lib/recursion/recursion.h \
-  C:/Users/38099/C\ Projects/algs/lib/searches/search.h \
   C:/Users/38099/C\ Projects/algs/lib/utils/list.h
 
 
@@ -166,11 +204,15 @@ C:/Users/38099/C\ Projects/algs/lib/data-structures/linked-list.h:
 
 C:/MinGW/include/_mingw.h:
 
+C:/Users/38099/C\ Projects/algs/src/actions/recursion/factorial/factorial_actions.c:
+
 C:/Users/38099/C\ Projects/algs/lib/sorts/selection_sort.c:
 
 C:/Users/38099/C\ Projects/algs/lib/searches/search.c:
 
 C:/MinGW/include/stdio.h:
+
+C:/Users/38099/C\ Projects/algs/src/actions/recursion/recursion_actions.c:
 
 C:/MinGW/include/stdlib.h:
 
@@ -188,6 +230,8 @@ C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h:
 
 C:/Users/38099/C\ Projects/algs/lib/recursion/recursion.c:
 
+C:/Users/38099/C\ Projects/algs/src/actions/recursion/factorial/factorial_actions.h:
+
 C:/Users/38099/C\ Projects/algs/lib/sorts/selection_sort.h:
 
 C:/Users/38099/C\ Projects/algs/lib/searches/search.h:
@@ -204,11 +248,17 @@ C:/Users/38099/C\ Projects/algs/src/actions/main/main_actions.h:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdbool.h:
 
+C:/Users/38099/C\ Projects/algs/src/actions/recursion/recursion_actions.h:
+
+C:/Users/38099/C\ Projects/algs/src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.c:
+
 C:/Users/38099/C\ Projects/algs/src/actions/search/search_actions.h:
 
 C:/Users/38099/C\ Projects/algs/src/actions/sort/sort_actions.h:
 
 C:/Users/38099/C\ Projects/algs/src/actions/search/search_actions.c:
+
+C:/Users/38099/C\ Projects/algs/src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.h:
 
 C:/Users/38099/C\ Projects/algs/src/actions/sort/quick/quick_sort_actions.c:
 

@@ -8,6 +8,4 @@ CMakeFiles/algs.dir/test/tests.c.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\stdarg.h \
  c:\mingw\include\stdlib.h \
  c:\users\38099\c\ projects\algs\lib\data-structures\linked-list.h \
- c:\users\38099\c\ projects\algs\lib\recursion\recursion.h \
- c:\users\38099\c\ projects\algs\lib\searches\search.h \
  c:\users\38099\c\ projects\algs\lib\utils\list.h
