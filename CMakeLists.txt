@@ -11,9 +11,11 @@ set(
     lib/recursion/recursion.c
     lib/utils/list.c
     test/tests.c
-    src/states/main/main_actions.c
-    src/states/search/search_actions.c
-    src/states/sort/sort_actions.c
+    src/actions/main/main_actions.c
+    src/actions/search/search_actions.c
+    src/actions/sort/sort_actions.c
+    src/actions/sort/quick/quick_sort_actions.c
+    src/actions/sort/selection/selection_sort_actions.c
 )
 
 include_directories(lib)

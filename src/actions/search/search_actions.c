@@ -15,7 +15,7 @@ void ask_for_search_action(int *action) {
 
 void print_all_search_actions() {
     printf("1. Binary search\n");
-    printf("2. Back\n");
+    printf("2. Back\n\n");
 }
 
 bool handle_search_action(enum search_action action) {

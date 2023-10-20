@@ -9,6 +9,7 @@
         "linked-list.h": "c",
         "sort_actions.h": "c",
         "selection_sort.h": "c",
-        "quick_sort.h": "c"
+        "quick_sort.h": "c",
+        "quick_sort_actions.h": "c"
     }
 }

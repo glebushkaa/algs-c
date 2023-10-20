@@ -55,20 +55,8 @@ CMakeFiles/algs.dir/lib/utils/list.c.obj: C:/Users/38099/C\ Projects/algs/lib/ut
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h
 
-CMakeFiles/algs.dir/src/main.c.obj: C:/Users/38099/C\ Projects/algs/src/main.c \
-  C:/Users/38099/C\ Projects/algs/src/states/main/main_actions.h \
-  C:/MinGW/include/_mingw.h \
-  C:/MinGW/include/msvcrtver.h \
-  C:/MinGW/include/sdkddkver.h \
-  C:/MinGW/include/stdio.h \
-  C:/MinGW/include/sys/types.h \
-  C:/MinGW/include/w32api.h \
-  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
-  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdbool.h \
-  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h
-
-CMakeFiles/algs.dir/src/states/main/main_actions.c.obj: C:/Users/38099/C\ Projects/algs/src/states/main/main_actions.c \
-  C:/Users/38099/C\ Projects/algs/src/states/main/main_actions.h \
+CMakeFiles/algs.dir/src/actions/main/main_actions.c.obj: C:/Users/38099/C\ Projects/algs/src/actions/main/main_actions.c \
+  C:/Users/38099/C\ Projects/algs/src/actions/main/main_actions.h \
   C:/MinGW/include/_mingw.h \
   C:/MinGW/include/msvcrtver.h \
   C:/MinGW/include/sdkddkver.h \
@@ -78,11 +66,11 @@ CMakeFiles/algs.dir/src/states/main/main_actions.c.obj: C:/Users/38099/C\ Projec
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdbool.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h \
-  C:/Users/38099/C\ Projects/algs/src/states/search/search_actions.h \
-  C:/Users/38099/C\ Projects/algs/src/states/sort/sort_actions.h
+  C:/Users/38099/C\ Projects/algs/src/actions/search/search_actions.h \
+  C:/Users/38099/C\ Projects/algs/src/actions/sort/sort_actions.h
 
-CMakeFiles/algs.dir/src/states/search/search_actions.c.obj: C:/Users/38099/C\ Projects/algs/src/states/search/search_actions.c \
-  C:/Users/38099/C\ Projects/algs/src/states/search/search_actions.h \
+CMakeFiles/algs.dir/src/actions/search/search_actions.c.obj: C:/Users/38099/C\ Projects/algs/src/actions/search/search_actions.c \
+  C:/Users/38099/C\ Projects/algs/src/actions/search/search_actions.h \
   C:/MinGW/include/_mingw.h \
   C:/MinGW/include/msvcrtver.h \
   C:/MinGW/include/sdkddkver.h \
@@ -95,8 +83,8 @@ CMakeFiles/algs.dir/src/states/search/search_actions.c.obj: C:/Users/38099/C\ Pr
   C:/Users/38099/C\ Projects/algs/lib/searches/search.h \
   C:/Users/38099/C\ Projects/algs/lib/utils/list.h
 
-CMakeFiles/algs.dir/src/states/sort/sort_actions.c.obj: C:/Users/38099/C\ Projects/algs/src/states/sort/sort_actions.c \
-  C:/Users/38099/C\ Projects/algs/src/states/sort/sort_actions.h \
+CMakeFiles/algs.dir/src/actions/sort/quick/quick_sort_actions.c.obj: C:/Users/38099/C\ Projects/algs/src/actions/sort/quick/quick_sort_actions.c \
+  C:/Users/38099/C\ Projects/algs/src/actions/sort/quick/quick_sort_actions.h \
   C:/MinGW/include/_mingw.h \
   C:/MinGW/include/msvcrtver.h \
   C:/MinGW/include/sdkddkver.h \
@@ -105,11 +93,49 @@ CMakeFiles/algs.dir/src/states/sort/sort_actions.c.obj: C:/Users/38099/C\ Projec
   C:/MinGW/include/sys/types.h \
   C:/MinGW/include/w32api.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
-  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdbool.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h \
   C:/Users/38099/C\ Projects/algs/lib/sorts/quick_sort.h \
+  C:/Users/38099/C\ Projects/algs/lib/utils/list.h
+
+CMakeFiles/algs.dir/src/actions/sort/selection/selection_sort_actions.c.obj: C:/Users/38099/C\ Projects/algs/src/actions/sort/selection/selection_sort_actions.c \
+  C:/Users/38099/C\ Projects/algs/src/actions/sort/selection/selection_sort_actions.h \
+  C:/MinGW/include/_mingw.h \
+  C:/MinGW/include/msvcrtver.h \
+  C:/MinGW/include/sdkddkver.h \
+  C:/MinGW/include/stdio.h \
+  C:/MinGW/include/stdlib.h \
+  C:/MinGW/include/sys/types.h \
+  C:/MinGW/include/w32api.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h \
   C:/Users/38099/C\ Projects/algs/lib/sorts/selection_sort.h \
   C:/Users/38099/C\ Projects/algs/lib/utils/list.h
+
+CMakeFiles/algs.dir/src/actions/sort/sort_actions.c.obj: C:/Users/38099/C\ Projects/algs/src/actions/sort/sort_actions.c \
+  C:/Users/38099/C\ Projects/algs/src/actions/sort/quick/quick_sort_actions.h \
+  C:/Users/38099/C\ Projects/algs/src/actions/sort/selection/selection_sort_actions.h \
+  C:/Users/38099/C\ Projects/algs/src/actions/sort/sort_actions.h \
+  C:/MinGW/include/_mingw.h \
+  C:/MinGW/include/msvcrtver.h \
+  C:/MinGW/include/sdkddkver.h \
+  C:/MinGW/include/stdio.h \
+  C:/MinGW/include/sys/types.h \
+  C:/MinGW/include/w32api.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdbool.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h
+
+CMakeFiles/algs.dir/src/main.c.obj: C:/Users/38099/C\ Projects/algs/src/main.c \
+  C:/Users/38099/C\ Projects/algs/src/actions/main/main_actions.h \
+  C:/MinGW/include/_mingw.h \
+  C:/MinGW/include/msvcrtver.h \
+  C:/MinGW/include/sdkddkver.h \
+  C:/MinGW/include/stdio.h \
+  C:/MinGW/include/sys/types.h \
+  C:/MinGW/include/w32api.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdbool.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h
 
 CMakeFiles/algs.dir/test/tests.c.obj: C:/Users/38099/C\ Projects/algs/test/tests.c \
   C:/Users/38099/C\ Projects/algs/test/tests.h \
@@ -152,7 +178,11 @@ C:/Users/38099/C\ Projects/algs/lib/recursion/recursion.h:
 
 C:/MinGW/include/w32api.h:
 
+C:/Users/38099/C\ Projects/algs/src/actions/sort/selection/selection_sort_actions.h:
+
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h:
+
+C:/Users/38099/C\ Projects/algs/src/actions/main/main_actions.c:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h:
 
@@ -170,21 +200,25 @@ C:/Users/38099/C\ Projects/algs/lib/utils/list.c:
 
 C:/Users/38099/C\ Projects/algs/lib/utils/list.h:
 
-C:/Users/38099/C\ Projects/algs/src/main.c:
-
-C:/Users/38099/C\ Projects/algs/src/states/main/main_actions.h:
+C:/Users/38099/C\ Projects/algs/src/actions/main/main_actions.h:
 
 C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdbool.h:
 
-C:/Users/38099/C\ Projects/algs/src/states/main/main_actions.c:
+C:/Users/38099/C\ Projects/algs/src/actions/search/search_actions.h:
 
-C:/Users/38099/C\ Projects/algs/src/states/sort/sort_actions.h:
+C:/Users/38099/C\ Projects/algs/src/actions/sort/sort_actions.h:
 
-C:/Users/38099/C\ Projects/algs/src/states/search/search_actions.h:
+C:/Users/38099/C\ Projects/algs/src/actions/search/search_actions.c:
 
-C:/Users/38099/C\ Projects/algs/src/states/sort/sort_actions.c:
+C:/Users/38099/C\ Projects/algs/src/actions/sort/quick/quick_sort_actions.c:
 
-C:/Users/38099/C\ Projects/algs/src/states/search/search_actions.c:
+C:/Users/38099/C\ Projects/algs/src/actions/sort/quick/quick_sort_actions.h:
+
+C:/Users/38099/C\ Projects/algs/src/actions/sort/selection/selection_sort_actions.c:
+
+C:/Users/38099/C\ Projects/algs/src/actions/sort/sort_actions.c:
+
+C:/Users/38099/C\ Projects/algs/src/main.c:
 
 C:/Users/38099/C\ Projects/algs/test/tests.c:
 

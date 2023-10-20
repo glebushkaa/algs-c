@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#include "states/main/main_actions.h"
+#include "actions/main/main_actions.h"
 
 int main() {
     print_all_main_actions();

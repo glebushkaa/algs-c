@@ -18,7 +18,7 @@ void print_all_main_actions() {
     printf("1. Searches\n");
     printf("2. Sorts\n");
     printf("3. Recursion\n");
-    printf("100. End program\n");
+    printf("100. End program\n\n");
 }
 
 bool handle_main_action(enum main_action action) {
@@ -50,7 +50,7 @@ bool handle_main_action(enum main_action action) {
 }
 
 void perform_search_action() {
-    printf("You are in search section\n");
+    printf("You are in search section\n\n");
     print_all_search_actions();
     int search_action;
     ask_for_search_action(&search_action);
@@ -63,7 +63,7 @@ void perform_search_action() {
 }
 
 void perform_sort_action() {
-    printf("You are in sort section\n");
+    printf("You are in sort section\n\n");
     print_all_sort_actions();
     int sort_action;
     ask_for_sort_action(&sort_action);
