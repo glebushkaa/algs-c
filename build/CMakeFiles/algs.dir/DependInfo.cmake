@@ -14,6 +14,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/38099/C Projects/algs/lib/sorts/quick_sort.c" "CMakeFiles/algs.dir/lib/sorts/quick_sort.c.obj" "gcc" "CMakeFiles/algs.dir/lib/sorts/quick_sort.c.obj.d"
   "C:/Users/38099/C Projects/algs/lib/sorts/selection_sort.c" "CMakeFiles/algs.dir/lib/sorts/selection_sort.c.obj" "gcc" "CMakeFiles/algs.dir/lib/sorts/selection_sort.c.obj.d"
   "C:/Users/38099/C Projects/algs/lib/utils/list.c" "CMakeFiles/algs.dir/lib/utils/list.c.obj" "gcc" "CMakeFiles/algs.dir/lib/utils/list.c.obj.d"
+  "C:/Users/38099/C Projects/algs/src/actions/data-structure/data_structure_actions.c" "CMakeFiles/algs.dir/src/actions/data-structure/data_structure_actions.c.obj" "gcc" "CMakeFiles/algs.dir/src/actions/data-structure/data_structure_actions.c.obj.d"
+  "C:/Users/38099/C Projects/algs/src/actions/data-structure/linked-list/linked_list_actions.c" "CMakeFiles/algs.dir/src/actions/data-structure/linked-list/linked_list_actions.c.obj" "gcc" "CMakeFiles/algs.dir/src/actions/data-structure/linked-list/linked_list_actions.c.obj.d"
   "C:/Users/38099/C Projects/algs/src/actions/main/main_actions.c" "CMakeFiles/algs.dir/src/actions/main/main_actions.c.obj" "gcc" "CMakeFiles/algs.dir/src/actions/main/main_actions.c.obj.d"
   "C:/Users/38099/C Projects/algs/src/actions/recursion/factorial/factorial_actions.c" "CMakeFiles/algs.dir/src/actions/recursion/factorial/factorial_actions.c.obj" "gcc" "CMakeFiles/algs.dir/src/actions/recursion/factorial/factorial_actions.c.obj.d"
   "C:/Users/38099/C Projects/algs/src/actions/recursion/recursion_actions.c" "CMakeFiles/algs.dir/src/actions/recursion/recursion_actions.c.obj" "gcc" "CMakeFiles/algs.dir/src/actions/recursion/recursion_actions.c.obj.d"
@@ -23,7 +25,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/38099/C Projects/algs/src/actions/sort/selection/selection_sort_actions.c" "CMakeFiles/algs.dir/src/actions/sort/selection/selection_sort_actions.c.obj" "gcc" "CMakeFiles/algs.dir/src/actions/sort/selection/selection_sort_actions.c.obj.d"
   "C:/Users/38099/C Projects/algs/src/actions/sort/sort_actions.c" "CMakeFiles/algs.dir/src/actions/sort/sort_actions.c.obj" "gcc" "CMakeFiles/algs.dir/src/actions/sort/sort_actions.c.obj.d"
   "C:/Users/38099/C Projects/algs/src/main.c" "CMakeFiles/algs.dir/src/main.c.obj" "gcc" "CMakeFiles/algs.dir/src/main.c.obj.d"
-  "C:/Users/38099/C Projects/algs/test/tests.c" "CMakeFiles/algs.dir/test/tests.c.obj" "gcc" "CMakeFiles/algs.dir/test/tests.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

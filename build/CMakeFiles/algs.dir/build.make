@@ -173,26 +173,11 @@ CMakeFiles/algs.dir/lib/utils/list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/algs.dir/lib/utils/list.c.s"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\38099\C Projects\algs\lib\utils\list.c" -o CMakeFiles\algs.dir\lib\utils\list.c.s
 
-CMakeFiles/algs.dir/test/tests.c.obj: CMakeFiles/algs.dir/flags.make
-CMakeFiles/algs.dir/test/tests.c.obj: CMakeFiles/algs.dir/includes_C.rsp
-CMakeFiles/algs.dir/test/tests.c.obj: C:/Users/38099/C\ Projects/algs/test/tests.c
-CMakeFiles/algs.dir/test/tests.c.obj: CMakeFiles/algs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\38099\C Projects\algs\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/algs.dir/test/tests.c.obj"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/algs.dir/test/tests.c.obj -MF CMakeFiles\algs.dir\test\tests.c.obj.d -o CMakeFiles\algs.dir\test\tests.c.obj -c "C:\Users\38099\C Projects\algs\test\tests.c"
-
-CMakeFiles/algs.dir/test/tests.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/algs.dir/test/tests.c.i"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\38099\C Projects\algs\test\tests.c" > CMakeFiles\algs.dir\test\tests.c.i
-
-CMakeFiles/algs.dir/test/tests.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/algs.dir/test/tests.c.s"
-	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\38099\C Projects\algs\test\tests.c" -o CMakeFiles\algs.dir\test\tests.c.s
-
 CMakeFiles/algs.dir/src/actions/main/main_actions.c.obj: CMakeFiles/algs.dir/flags.make
 CMakeFiles/algs.dir/src/actions/main/main_actions.c.obj: CMakeFiles/algs.dir/includes_C.rsp
 CMakeFiles/algs.dir/src/actions/main/main_actions.c.obj: C:/Users/38099/C\ Projects/algs/src/actions/main/main_actions.c
 CMakeFiles/algs.dir/src/actions/main/main_actions.c.obj: CMakeFiles/algs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\38099\C Projects\algs\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/algs.dir/src/actions/main/main_actions.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\38099\C Projects\algs\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/algs.dir/src/actions/main/main_actions.c.obj"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/algs.dir/src/actions/main/main_actions.c.obj -MF CMakeFiles\algs.dir\src\actions\main\main_actions.c.obj.d -o CMakeFiles\algs.dir\src\actions\main\main_actions.c.obj -c "C:\Users\38099\C Projects\algs\src\actions\main\main_actions.c"
 
 CMakeFiles/algs.dir/src/actions/main/main_actions.c.i: cmake_force
@@ -207,7 +192,7 @@ CMakeFiles/algs.dir/src/actions/search/search_actions.c.obj: CMakeFiles/algs.dir
 CMakeFiles/algs.dir/src/actions/search/search_actions.c.obj: CMakeFiles/algs.dir/includes_C.rsp
 CMakeFiles/algs.dir/src/actions/search/search_actions.c.obj: C:/Users/38099/C\ Projects/algs/src/actions/search/search_actions.c
 CMakeFiles/algs.dir/src/actions/search/search_actions.c.obj: CMakeFiles/algs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\38099\C Projects\algs\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/algs.dir/src/actions/search/search_actions.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\38099\C Projects\algs\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/algs.dir/src/actions/search/search_actions.c.obj"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/algs.dir/src/actions/search/search_actions.c.obj -MF CMakeFiles\algs.dir\src\actions\search\search_actions.c.obj.d -o CMakeFiles\algs.dir\src\actions\search\search_actions.c.obj -c "C:\Users\38099\C Projects\algs\src\actions\search\search_actions.c"
 
 CMakeFiles/algs.dir/src/actions/search/search_actions.c.i: cmake_force
@@ -222,7 +207,7 @@ CMakeFiles/algs.dir/src/actions/sort/sort_actions.c.obj: CMakeFiles/algs.dir/fla
 CMakeFiles/algs.dir/src/actions/sort/sort_actions.c.obj: CMakeFiles/algs.dir/includes_C.rsp
 CMakeFiles/algs.dir/src/actions/sort/sort_actions.c.obj: C:/Users/38099/C\ Projects/algs/src/actions/sort/sort_actions.c
 CMakeFiles/algs.dir/src/actions/sort/sort_actions.c.obj: CMakeFiles/algs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\38099\C Projects\algs\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/algs.dir/src/actions/sort/sort_actions.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\38099\C Projects\algs\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/algs.dir/src/actions/sort/sort_actions.c.obj"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/algs.dir/src/actions/sort/sort_actions.c.obj -MF CMakeFiles\algs.dir\src\actions\sort\sort_actions.c.obj.d -o CMakeFiles\algs.dir\src\actions\sort\sort_actions.c.obj -c "C:\Users\38099\C Projects\algs\src\actions\sort\sort_actions.c"
 
 CMakeFiles/algs.dir/src/actions/sort/sort_actions.c.i: cmake_force
@@ -237,7 +222,7 @@ CMakeFiles/algs.dir/src/actions/sort/quick/quick_sort_actions.c.obj: CMakeFiles/
 CMakeFiles/algs.dir/src/actions/sort/quick/quick_sort_actions.c.obj: CMakeFiles/algs.dir/includes_C.rsp
 CMakeFiles/algs.dir/src/actions/sort/quick/quick_sort_actions.c.obj: C:/Users/38099/C\ Projects/algs/src/actions/sort/quick/quick_sort_actions.c
 CMakeFiles/algs.dir/src/actions/sort/quick/quick_sort_actions.c.obj: CMakeFiles/algs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\38099\C Projects\algs\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/algs.dir/src/actions/sort/quick/quick_sort_actions.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\38099\C Projects\algs\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/algs.dir/src/actions/sort/quick/quick_sort_actions.c.obj"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/algs.dir/src/actions/sort/quick/quick_sort_actions.c.obj -MF CMakeFiles\algs.dir\src\actions\sort\quick\quick_sort_actions.c.obj.d -o CMakeFiles\algs.dir\src\actions\sort\quick\quick_sort_actions.c.obj -c "C:\Users\38099\C Projects\algs\src\actions\sort\quick\quick_sort_actions.c"
 
 CMakeFiles/algs.dir/src/actions/sort/quick/quick_sort_actions.c.i: cmake_force
@@ -252,7 +237,7 @@ CMakeFiles/algs.dir/src/actions/sort/selection/selection_sort_actions.c.obj: CMa
 CMakeFiles/algs.dir/src/actions/sort/selection/selection_sort_actions.c.obj: CMakeFiles/algs.dir/includes_C.rsp
 CMakeFiles/algs.dir/src/actions/sort/selection/selection_sort_actions.c.obj: C:/Users/38099/C\ Projects/algs/src/actions/sort/selection/selection_sort_actions.c
 CMakeFiles/algs.dir/src/actions/sort/selection/selection_sort_actions.c.obj: CMakeFiles/algs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\38099\C Projects\algs\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/algs.dir/src/actions/sort/selection/selection_sort_actions.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\38099\C Projects\algs\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/algs.dir/src/actions/sort/selection/selection_sort_actions.c.obj"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/algs.dir/src/actions/sort/selection/selection_sort_actions.c.obj -MF CMakeFiles\algs.dir\src\actions\sort\selection\selection_sort_actions.c.obj.d -o CMakeFiles\algs.dir\src\actions\sort\selection\selection_sort_actions.c.obj -c "C:\Users\38099\C Projects\algs\src\actions\sort\selection\selection_sort_actions.c"
 
 CMakeFiles/algs.dir/src/actions/sort/selection/selection_sort_actions.c.i: cmake_force
@@ -267,7 +252,7 @@ CMakeFiles/algs.dir/src/actions/recursion/recursion_actions.c.obj: CMakeFiles/al
 CMakeFiles/algs.dir/src/actions/recursion/recursion_actions.c.obj: CMakeFiles/algs.dir/includes_C.rsp
 CMakeFiles/algs.dir/src/actions/recursion/recursion_actions.c.obj: C:/Users/38099/C\ Projects/algs/src/actions/recursion/recursion_actions.c
 CMakeFiles/algs.dir/src/actions/recursion/recursion_actions.c.obj: CMakeFiles/algs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\38099\C Projects\algs\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/algs.dir/src/actions/recursion/recursion_actions.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\38099\C Projects\algs\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/algs.dir/src/actions/recursion/recursion_actions.c.obj"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/algs.dir/src/actions/recursion/recursion_actions.c.obj -MF CMakeFiles\algs.dir\src\actions\recursion\recursion_actions.c.obj.d -o CMakeFiles\algs.dir\src\actions\recursion\recursion_actions.c.obj -c "C:\Users\38099\C Projects\algs\src\actions\recursion\recursion_actions.c"
 
 CMakeFiles/algs.dir/src/actions/recursion/recursion_actions.c.i: cmake_force
@@ -282,7 +267,7 @@ CMakeFiles/algs.dir/src/actions/recursion/sum_of_list_items/sum_of_list_items_ac
 CMakeFiles/algs.dir/src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.c.obj: CMakeFiles/algs.dir/includes_C.rsp
 CMakeFiles/algs.dir/src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.c.obj: C:/Users/38099/C\ Projects/algs/src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.c
 CMakeFiles/algs.dir/src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.c.obj: CMakeFiles/algs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\38099\C Projects\algs\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/algs.dir/src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\38099\C Projects\algs\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/algs.dir/src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.c.obj"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/algs.dir/src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.c.obj -MF CMakeFiles\algs.dir\src\actions\recursion\sum_of_list_items\sum_of_list_items_actions.c.obj.d -o CMakeFiles\algs.dir\src\actions\recursion\sum_of_list_items\sum_of_list_items_actions.c.obj -c "C:\Users\38099\C Projects\algs\src\actions\recursion\sum_of_list_items\sum_of_list_items_actions.c"
 
 CMakeFiles/algs.dir/src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.c.i: cmake_force
@@ -297,7 +282,7 @@ CMakeFiles/algs.dir/src/actions/recursion/factorial/factorial_actions.c.obj: CMa
 CMakeFiles/algs.dir/src/actions/recursion/factorial/factorial_actions.c.obj: CMakeFiles/algs.dir/includes_C.rsp
 CMakeFiles/algs.dir/src/actions/recursion/factorial/factorial_actions.c.obj: C:/Users/38099/C\ Projects/algs/src/actions/recursion/factorial/factorial_actions.c
 CMakeFiles/algs.dir/src/actions/recursion/factorial/factorial_actions.c.obj: CMakeFiles/algs.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\38099\C Projects\algs\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/algs.dir/src/actions/recursion/factorial/factorial_actions.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\38099\C Projects\algs\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/algs.dir/src/actions/recursion/factorial/factorial_actions.c.obj"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/algs.dir/src/actions/recursion/factorial/factorial_actions.c.obj -MF CMakeFiles\algs.dir\src\actions\recursion\factorial\factorial_actions.c.obj.d -o CMakeFiles\algs.dir\src\actions\recursion\factorial\factorial_actions.c.obj -c "C:\Users\38099\C Projects\algs\src\actions\recursion\factorial\factorial_actions.c"
 
 CMakeFiles/algs.dir/src/actions/recursion/factorial/factorial_actions.c.i: cmake_force
@@ -308,6 +293,36 @@ CMakeFiles/algs.dir/src/actions/recursion/factorial/factorial_actions.c.s: cmake
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/algs.dir/src/actions/recursion/factorial/factorial_actions.c.s"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\38099\C Projects\algs\src\actions\recursion\factorial\factorial_actions.c" -o CMakeFiles\algs.dir\src\actions\recursion\factorial\factorial_actions.c.s
 
+CMakeFiles/algs.dir/src/actions/data-structure/data_structure_actions.c.obj: CMakeFiles/algs.dir/flags.make
+CMakeFiles/algs.dir/src/actions/data-structure/data_structure_actions.c.obj: CMakeFiles/algs.dir/includes_C.rsp
+CMakeFiles/algs.dir/src/actions/data-structure/data_structure_actions.c.obj: C:/Users/38099/C\ Projects/algs/src/actions/data-structure/data_structure_actions.c
+CMakeFiles/algs.dir/src/actions/data-structure/data_structure_actions.c.obj: CMakeFiles/algs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\38099\C Projects\algs\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/algs.dir/src/actions/data-structure/data_structure_actions.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/algs.dir/src/actions/data-structure/data_structure_actions.c.obj -MF CMakeFiles\algs.dir\src\actions\data-structure\data_structure_actions.c.obj.d -o CMakeFiles\algs.dir\src\actions\data-structure\data_structure_actions.c.obj -c "C:\Users\38099\C Projects\algs\src\actions\data-structure\data_structure_actions.c"
+
+CMakeFiles/algs.dir/src/actions/data-structure/data_structure_actions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/algs.dir/src/actions/data-structure/data_structure_actions.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\38099\C Projects\algs\src\actions\data-structure\data_structure_actions.c" > CMakeFiles\algs.dir\src\actions\data-structure\data_structure_actions.c.i
+
+CMakeFiles/algs.dir/src/actions/data-structure/data_structure_actions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/algs.dir/src/actions/data-structure/data_structure_actions.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\38099\C Projects\algs\src\actions\data-structure\data_structure_actions.c" -o CMakeFiles\algs.dir\src\actions\data-structure\data_structure_actions.c.s
+
+CMakeFiles/algs.dir/src/actions/data-structure/linked-list/linked_list_actions.c.obj: CMakeFiles/algs.dir/flags.make
+CMakeFiles/algs.dir/src/actions/data-structure/linked-list/linked_list_actions.c.obj: CMakeFiles/algs.dir/includes_C.rsp
+CMakeFiles/algs.dir/src/actions/data-structure/linked-list/linked_list_actions.c.obj: C:/Users/38099/C\ Projects/algs/src/actions/data-structure/linked-list/linked_list_actions.c
+CMakeFiles/algs.dir/src/actions/data-structure/linked-list/linked_list_actions.c.obj: CMakeFiles/algs.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\38099\C Projects\algs\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/algs.dir/src/actions/data-structure/linked-list/linked_list_actions.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/algs.dir/src/actions/data-structure/linked-list/linked_list_actions.c.obj -MF CMakeFiles\algs.dir\src\actions\data-structure\linked-list\linked_list_actions.c.obj.d -o CMakeFiles\algs.dir\src\actions\data-structure\linked-list\linked_list_actions.c.obj -c "C:\Users\38099\C Projects\algs\src\actions\data-structure\linked-list\linked_list_actions.c"
+
+CMakeFiles/algs.dir/src/actions/data-structure/linked-list/linked_list_actions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/algs.dir/src/actions/data-structure/linked-list/linked_list_actions.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\38099\C Projects\algs\src\actions\data-structure\linked-list\linked_list_actions.c" > CMakeFiles\algs.dir\src\actions\data-structure\linked-list\linked_list_actions.c.i
+
+CMakeFiles/algs.dir/src/actions/data-structure/linked-list/linked_list_actions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/algs.dir/src/actions/data-structure/linked-list/linked_list_actions.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\38099\C Projects\algs\src\actions\data-structure\linked-list\linked_list_actions.c" -o CMakeFiles\algs.dir\src\actions\data-structure\linked-list\linked_list_actions.c.s
+
 # Object files for target algs
 algs_OBJECTS = \
 "CMakeFiles/algs.dir/src/main.c.obj" \
@@ -317,7 +332,6 @@ algs_OBJECTS = \
 "CMakeFiles/algs.dir/lib/searches/search.c.obj" \
 "CMakeFiles/algs.dir/lib/recursion/recursion.c.obj" \
 "CMakeFiles/algs.dir/lib/utils/list.c.obj" \
-"CMakeFiles/algs.dir/test/tests.c.obj" \
 "CMakeFiles/algs.dir/src/actions/main/main_actions.c.obj" \
 "CMakeFiles/algs.dir/src/actions/search/search_actions.c.obj" \
 "CMakeFiles/algs.dir/src/actions/sort/sort_actions.c.obj" \
@@ -325,7 +339,9 @@ algs_OBJECTS = \
 "CMakeFiles/algs.dir/src/actions/sort/selection/selection_sort_actions.c.obj" \
 "CMakeFiles/algs.dir/src/actions/recursion/recursion_actions.c.obj" \
 "CMakeFiles/algs.dir/src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.c.obj" \
-"CMakeFiles/algs.dir/src/actions/recursion/factorial/factorial_actions.c.obj"
+"CMakeFiles/algs.dir/src/actions/recursion/factorial/factorial_actions.c.obj" \
+"CMakeFiles/algs.dir/src/actions/data-structure/data_structure_actions.c.obj" \
+"CMakeFiles/algs.dir/src/actions/data-structure/linked-list/linked_list_actions.c.obj"
 
 # External object files for target algs
 algs_EXTERNAL_OBJECTS =
@@ -337,7 +353,6 @@ algs.exe: CMakeFiles/algs.dir/lib/sorts/quick_sort.c.obj
 algs.exe: CMakeFiles/algs.dir/lib/searches/search.c.obj
 algs.exe: CMakeFiles/algs.dir/lib/recursion/recursion.c.obj
 algs.exe: CMakeFiles/algs.dir/lib/utils/list.c.obj
-algs.exe: CMakeFiles/algs.dir/test/tests.c.obj
 algs.exe: CMakeFiles/algs.dir/src/actions/main/main_actions.c.obj
 algs.exe: CMakeFiles/algs.dir/src/actions/search/search_actions.c.obj
 algs.exe: CMakeFiles/algs.dir/src/actions/sort/sort_actions.c.obj
@@ -346,11 +361,13 @@ algs.exe: CMakeFiles/algs.dir/src/actions/sort/selection/selection_sort_actions.
 algs.exe: CMakeFiles/algs.dir/src/actions/recursion/recursion_actions.c.obj
 algs.exe: CMakeFiles/algs.dir/src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.c.obj
 algs.exe: CMakeFiles/algs.dir/src/actions/recursion/factorial/factorial_actions.c.obj
+algs.exe: CMakeFiles/algs.dir/src/actions/data-structure/data_structure_actions.c.obj
+algs.exe: CMakeFiles/algs.dir/src/actions/data-structure/linked-list/linked_list_actions.c.obj
 algs.exe: CMakeFiles/algs.dir/build.make
 algs.exe: CMakeFiles/algs.dir/linkLibs.rsp
 algs.exe: CMakeFiles/algs.dir/objects1.rsp
 algs.exe: CMakeFiles/algs.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\38099\C Projects\algs\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Linking C executable algs.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\38099\C Projects\algs\Build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Linking C executable algs.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\algs.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

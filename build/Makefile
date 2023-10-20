@@ -272,6 +272,54 @@ lib/utils/list.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/lib/utils/list.c.s
 .PHONY : lib/utils/list.c.s
 
+src/actions/data-structure/data_structure_actions.obj: src/actions/data-structure/data_structure_actions.c.obj
+.PHONY : src/actions/data-structure/data_structure_actions.obj
+
+# target to build an object file
+src/actions/data-structure/data_structure_actions.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/actions/data-structure/data_structure_actions.c.obj
+.PHONY : src/actions/data-structure/data_structure_actions.c.obj
+
+src/actions/data-structure/data_structure_actions.i: src/actions/data-structure/data_structure_actions.c.i
+.PHONY : src/actions/data-structure/data_structure_actions.i
+
+# target to preprocess a source file
+src/actions/data-structure/data_structure_actions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/actions/data-structure/data_structure_actions.c.i
+.PHONY : src/actions/data-structure/data_structure_actions.c.i
+
+src/actions/data-structure/data_structure_actions.s: src/actions/data-structure/data_structure_actions.c.s
+.PHONY : src/actions/data-structure/data_structure_actions.s
+
+# target to generate assembly for a file
+src/actions/data-structure/data_structure_actions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/actions/data-structure/data_structure_actions.c.s
+.PHONY : src/actions/data-structure/data_structure_actions.c.s
+
+src/actions/data-structure/linked-list/linked_list_actions.obj: src/actions/data-structure/linked-list/linked_list_actions.c.obj
+.PHONY : src/actions/data-structure/linked-list/linked_list_actions.obj
+
+# target to build an object file
+src/actions/data-structure/linked-list/linked_list_actions.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/actions/data-structure/linked-list/linked_list_actions.c.obj
+.PHONY : src/actions/data-structure/linked-list/linked_list_actions.c.obj
+
+src/actions/data-structure/linked-list/linked_list_actions.i: src/actions/data-structure/linked-list/linked_list_actions.c.i
+.PHONY : src/actions/data-structure/linked-list/linked_list_actions.i
+
+# target to preprocess a source file
+src/actions/data-structure/linked-list/linked_list_actions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/actions/data-structure/linked-list/linked_list_actions.c.i
+.PHONY : src/actions/data-structure/linked-list/linked_list_actions.c.i
+
+src/actions/data-structure/linked-list/linked_list_actions.s: src/actions/data-structure/linked-list/linked_list_actions.c.s
+.PHONY : src/actions/data-structure/linked-list/linked_list_actions.s
+
+# target to generate assembly for a file
+src/actions/data-structure/linked-list/linked_list_actions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/actions/data-structure/linked-list/linked_list_actions.c.s
+.PHONY : src/actions/data-structure/linked-list/linked_list_actions.c.s
+
 src/actions/main/main_actions.obj: src/actions/main/main_actions.c.obj
 .PHONY : src/actions/main/main_actions.obj
 
@@ -488,30 +536,6 @@ src/main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/src/main.c.s
 .PHONY : src/main.c.s
 
-test/tests.obj: test/tests.c.obj
-.PHONY : test/tests.obj
-
-# target to build an object file
-test/tests.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/test/tests.c.obj
-.PHONY : test/tests.c.obj
-
-test/tests.i: test/tests.c.i
-.PHONY : test/tests.i
-
-# target to preprocess a source file
-test/tests.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/test/tests.c.i
-.PHONY : test/tests.c.i
-
-test/tests.s: test/tests.c.s
-.PHONY : test/tests.s
-
-# target to generate assembly for a file
-test/tests.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/test/tests.c.s
-.PHONY : test/tests.c.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -539,6 +563,12 @@ help:
 	@echo ... lib/utils/list.obj
 	@echo ... lib/utils/list.i
 	@echo ... lib/utils/list.s
+	@echo ... src/actions/data-structure/data_structure_actions.obj
+	@echo ... src/actions/data-structure/data_structure_actions.i
+	@echo ... src/actions/data-structure/data_structure_actions.s
+	@echo ... src/actions/data-structure/linked-list/linked_list_actions.obj
+	@echo ... src/actions/data-structure/linked-list/linked_list_actions.i
+	@echo ... src/actions/data-structure/linked-list/linked_list_actions.s
 	@echo ... src/actions/main/main_actions.obj
 	@echo ... src/actions/main/main_actions.i
 	@echo ... src/actions/main/main_actions.s
@@ -566,9 +596,6 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... test/tests.obj
-	@echo ... test/tests.i
-	@echo ... test/tests.s
 .PHONY : help
 
 

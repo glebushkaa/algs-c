@@ -1,13 +1,20 @@
 #include "main_actions.h"
 
-#include <stdio.h>
 #include <stdbool.h>
+#include <stdio.h>
 
+#include "../recursion/recursion_actions.h"
 #include "../search/search_actions.h"
 #include "../sort/sort_actions.h"
-#include "../recursion/recursion_actions.h"
+#include "../data-structure/data_structure_actions.h"
 
-enum main_action { SEARCHES = 1, SORTS = 2, RECURSION = 3, END = 100 };
+enum main_action {
+    SEARCHES = 1,
+    SORTS = 2,
+    RECURSION = 3,
+    DATA_STRUCTURES = 4,
+    END = 100
+};
 
 /**
  * @return is programm running
@@ -30,7 +37,7 @@ void start_main_section() {
     start_main_section();
 }
 
-void ask_for_main_action(int *action) {
+void ask_for_main_action(int* action) {
     printf("Input action you want to accomplish: ");
     scanf("%i", action);
     printf("\n");
@@ -40,6 +47,7 @@ void print_all_main_actions() {
     printf("1. Searches\n");
     printf("2. Sorts\n");
     printf("3. Recursion\n");
+    printf("4. Data structures\n");
     printf("100. End program\n\n");
 }
 
@@ -57,6 +65,11 @@ bool handle_main_action(enum main_action action) {
 
         case RECURSION: {
             start_recursion_section();
+            break;
+        }
+
+        case DATA_STRUCTURES: {
+            start_data_structure_section();
             break;
         }
 
