@@ -1,3 +1,3 @@
 "C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\algs.dir/objects.a
 C:\MinGW\bin\ar.exe qc CMakeFiles\algs.dir/objects.a @CMakeFiles\algs.dir\objects1.rsp
-C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\algs.dir/objects.a -Wl,--no-whole-archive -o algs.exe -Wl,--out-implib,libalgs.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\algs.dir\linkLibs.rsp
+C:\MinGW\bin\gcc.exe -Wl,--whole-archive CMakeFiles\algs.dir/objects.a -Wl,--no-whole-archive -o algs.exe -Wl,--out-implib,libalgs.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\algs.dir\linkLibs.rsp

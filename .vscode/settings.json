@@ -1,9 +1,14 @@
 {
-    "cmake.sourceDirectory": "C:/Users/glebm/cprojects/algs",
+    "cmake.sourceDirectory": "../algs",
     "files.associations": {
         "sorts.h": "c",
         "tests.h": "c",
         "recursion.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "search.h": "c",
+        "linked-list.h": "c",
+        "sort_actions.h": "c",
+        "selection_sort.h": "c",
+        "quick_sort.h": "c"
     }
 }

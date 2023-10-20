@@ -1,5 +1,5 @@
-#ifndef RECURSION
-#define RECURSION
+#ifndef _RECURSION_H
+#define _RECURSION_H
 
 long long factorial(int number);
 
