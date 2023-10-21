@@ -2,9 +2,10 @@
 
 #include <stdbool.h>
 #include <stdio.h>
+#include <stdlib.h>
 
-#include "sum_of_list_items/sum_of_list_items_actions.h"
 #include "factorial/factorial_actions.h"
+#include "sum_of_list_items/sum_of_list_items_actions.h"
 
 enum recursion_action {
     FACTORIAL = 1,
@@ -17,13 +18,14 @@ void ask_for_recursion_action(int *action);
 bool handle_recursion_action(enum recursion_action action);
 
 void start_recursion_section() {
+    system("cls");
     printf("You are in recursion section\n\n");
     print_all_recursion_actions();
     int recursion_action;
     ask_for_recursion_action(&recursion_action);
     int is_finished = handle_recursion_action(recursion_action);
     if (!is_finished) {
-        printf("\n");
+        system("cls");
         return;
     }
     start_recursion_section();

@@ -30,10 +30,9 @@ int ascending_partition(int arr[], int low, int high) {
     int i = low - 1;
 
     for (int l = low; l < high; l++) {
-        if (arr[l] < pivot) {
-            i++;
-            swap(&arr[i], &arr[l]);
-        }
+        if (arr[l] >= pivot) continue;
+        i++;
+        swap(&arr[i], &arr[l]);
     }
     swap(&arr[i + 1], &arr[high]);
     return (i + 1);
@@ -44,10 +43,9 @@ int descending_partition(int arr[], int low, int high) {
     int i = low - 1;
 
     for (int l = low; l < high; l++) {
-        if (arr[l] > pivot) {
-            i++;
-            swap(&arr[i], &arr[l]);
-        }
+        if (arr[l] <= pivot) continue;
+        i++;
+        swap(&arr[i], &arr[l]);
     }
     swap(&arr[i + 1], &arr[high]);
     return (i + 1);

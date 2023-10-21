@@ -3,6 +3,7 @@ project(algs LANGUAGES C)
 set(CMAKE_C_STANDARD 11)
 set(
     SOURCE_FILES
+    
     src/main.c 
 
     lib/data-structures/linked-list.c

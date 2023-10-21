@@ -37,7 +37,7 @@ int get_looked_item_position() {
 
 void insert_items(struct LinkedList* list, int list_size, int* rand_list) {
     for (int i = 0; i < list_size; i++) {
-        insert(list, rand_list[i]);
+        append(list, rand_list[i]);
         printf("Inserted: %i\n", rand_list[i]);
     }
 }

@@ -10,7 +10,36 @@ struct LinkedList create_list() {
     return list;
 }
 
-void insert(struct LinkedList *list, int value) {
+void append(struct LinkedList *list, int value) {
+    struct LinkedNode *new_node = malloc(sizeof(struct LinkedNode));
+    new_node->value = value;
+    new_node->next = NULL;
+    if (list->head == NULL) {
+        list->head = new_node;
+        list->tail = new_node;
+        return;
+    }
+    if (list->tail == NULL) {
+        list->tail = new_node;
+    }
+    list->tail->next = new_node;
+    list->tail = new_node;
+}
+
+void push(struct LinkedList *list, int value) {
+    struct LinkedNode *new_node = malloc(sizeof(struct LinkedNode));
+    new_node->value = value;
+    new_node->next = NULL;
+    if (list->head == NULL) {
+        list->head = new_node;
+        list->tail = new_node;
+        return;
+    }
+    list->head->next = new_node;
+    list->head = new_node;
+}
+
+void insert(struct LinkedList *list, int value, int position) {
     struct LinkedNode *new_node = malloc(sizeof(struct LinkedNode));
     new_node->value = value;
     new_node->next = NULL;
