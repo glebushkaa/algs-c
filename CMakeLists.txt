@@ -11,7 +11,9 @@ set(
     lib/sorts/quick_sort.c
     lib/searches/search.c
     lib/recursion/recursion.c
+
     lib/utils/list.c
+    lib/utils/system_extensions.c
 
     src/actions/main/main_actions.c
     src/actions/search/search_actions.c
@@ -26,6 +28,5 @@ set(
 )
 
 include_directories(lib)
-include_directories(test)
 
 add_executable(algs ${SOURCE_FILES})

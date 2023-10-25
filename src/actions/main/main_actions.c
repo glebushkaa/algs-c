@@ -8,6 +8,7 @@
 #include "../recursion/recursion_actions.h"
 #include "../search/search_actions.h"
 #include "../sort/sort_actions.h"
+#include "../lib/utils/system_extensions.h"
 
 enum main_action {
     SEARCHES = 1,
@@ -34,7 +35,7 @@ void start_main_section() {
     ask_for_main_action(&action);
     int is_programm_finished = handle_main_action(action);
     if (!is_programm_finished) return;
-    system("cls");
+    clear_screen();
     start_main_section();
 }
 

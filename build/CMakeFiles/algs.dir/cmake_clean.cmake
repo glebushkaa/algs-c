@@ -11,6 +11,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/algs.dir/lib/sorts/selection_sort.c.obj.d"
   "CMakeFiles/algs.dir/lib/utils/list.c.obj"
   "CMakeFiles/algs.dir/lib/utils/list.c.obj.d"
+  "CMakeFiles/algs.dir/lib/utils/system_extensions.c.obj"
+  "CMakeFiles/algs.dir/lib/utils/system_extensions.c.obj.d"
   "CMakeFiles/algs.dir/src/actions/data-structure/data_structure_actions.c.obj"
   "CMakeFiles/algs.dir/src/actions/data-structure/data_structure_actions.c.obj.d"
   "CMakeFiles/algs.dir/src/actions/data-structure/linked-list/linked_list_actions.c.obj"

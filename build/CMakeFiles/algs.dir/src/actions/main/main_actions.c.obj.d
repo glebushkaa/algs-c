@@ -12,4 +12,5 @@ CMakeFiles/algs.dir/src/actions/main/main_actions.c.obj: \
  c:\users\38099\c\ projects\algs\src\actions\data-structure\data_structure_actions.h \
  c:\users\38099\c\ projects\algs\src\actions\recursion\recursion_actions.h \
  c:\users\38099\c\ projects\algs\src\actions\search\search_actions.h \
- c:\users\38099\c\ projects\algs\src\actions\sort\sort_actions.h
+ c:\users\38099\c\ projects\algs\src\actions\sort\sort_actions.h \
+ c:\users\38099\cproje~2\algs\lib\utils\system_extensions.h

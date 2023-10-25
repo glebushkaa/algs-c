@@ -32,10 +32,9 @@ void push(struct LinkedList *list, int value) {
     new_node->next = NULL;
     if (list->head == NULL) {
         list->head = new_node;
-        list->tail = new_node;
         return;
     }
-    list->head->next = new_node;
+    new_node->next = list->head;
     list->head = new_node;
 }
 
@@ -43,16 +42,13 @@ void insert(struct LinkedList *list, int value, int position) {
     struct LinkedNode *new_node = malloc(sizeof(struct LinkedNode));
     new_node->value = value;
     new_node->next = NULL;
-    if (list->head == NULL) {
-        list->head = new_node;
-        list->tail = new_node;
-        return;
+    struct LinkedNode *current_node = list->head;
+    for(int i = 1; i < position; i++) {
+        if(current_node->next == NULL) break;
+        current_node = current_node->next;
     }
-    if (list->tail == NULL) {
-        list->tail = new_node;
-    }
-    list->tail->next = new_node;
-    list->tail = new_node;
+    new_node->next = current_node->next;
+    current_node->next = new_node;
 }
 
 struct LinkedResult get(struct LinkedList *list, int position) {
