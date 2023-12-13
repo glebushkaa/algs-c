@@ -8,6 +8,9 @@ CMakeFiles/algs.dir/src/actions/recursion/recursion_actions.c.obj: \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\stddef.h \
  c:\mingw\include\sys/types.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\stdarg.h \
+ c:\mingw\include\unistd.h c:\mingw\include\io.h \
+ c:\mingw\include\sys\types.h c:\mingw\include\stdint.h \
+ c:\mingw\include\process.h c:\mingw\include\getopt.h \
+ c:\users\38099\cproje~2\algs\lib\utils\system_extensions.h \
  C:\Users\38099\C\ Projects\algs\src\actions\recursion\factorial/factorial_actions.h \
- C:\Users\38099\C\ Projects\algs\src\actions\recursion\sum_of_list_items/sum_of_list_items_actions.h \
- c:\users\38099\cproje~2\algs\lib\utils\system_extensions.h
+ C:\Users\38099\C\ Projects\algs\src\actions\recursion\sum_of_list_items/sum_of_list_items_actions.h

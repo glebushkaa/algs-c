@@ -3,6 +3,7 @@
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
 
 #include "../data-structure/data_structure_actions.h"
 #include "../recursion/recursion_actions.h"
@@ -33,6 +34,7 @@ void start_main_section() {
     print_all_main_actions();
     int action;
     ask_for_main_action(&action);
+    clear_screen();
     int is_programm_finished = handle_main_action(action);
     if (!is_programm_finished) return;
     clear_screen();
@@ -81,6 +83,7 @@ bool handle_main_action(enum main_action action) {
 
         default: {
             printf("Action you entered doesn't exist, try again...\n");
+            sleep(1);
         }
     }
     return true;

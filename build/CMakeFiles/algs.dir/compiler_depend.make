@@ -61,8 +61,11 @@ CMakeFiles/algs.dir/lib/utils/system_extensions.c.obj: C:/Users/38099/C\ Project
   C:/MinGW/include/_mingw.h \
   C:/MinGW/include/msvcrtver.h \
   C:/MinGW/include/sdkddkver.h \
+  C:/MinGW/include/stdio.h \
   C:/MinGW/include/stdlib.h \
+  C:/MinGW/include/sys/types.h \
   C:/MinGW/include/w32api.h \
+  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h
 
 CMakeFiles/algs.dir/src/actions/data-structure/data_structure_actions.c.obj: C:/Users/38099/C\ Projects/algs/src/actions/data-structure/data_structure_actions.c \
@@ -96,11 +99,17 @@ CMakeFiles/algs.dir/src/actions/data-structure/linked-list/linked_list_actions.c
 CMakeFiles/algs.dir/src/actions/main/main_actions.c.obj: C:/Users/38099/C\ Projects/algs/src/actions/main/main_actions.c \
   C:/Users/38099/C\ Projects/algs/src/actions/main/main_actions.h \
   C:/MinGW/include/_mingw.h \
+  C:/MinGW/include/getopt.h \
+  C:/MinGW/include/io.h \
   C:/MinGW/include/msvcrtver.h \
+  C:/MinGW/include/process.h \
   C:/MinGW/include/sdkddkver.h \
+  C:/MinGW/include/stdint.h \
   C:/MinGW/include/stdio.h \
   C:/MinGW/include/stdlib.h \
   C:/MinGW/include/sys/types.h \
+  C:/MinGW/include/sys/types.h \
+  C:/MinGW/include/unistd.h \
   C:/MinGW/include/w32api.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdbool.h \
@@ -122,17 +131,24 @@ CMakeFiles/algs.dir/src/actions/recursion/factorial/factorial_actions.c.obj: C:/
   C:/MinGW/include/w32api.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h \
-  C:/Users/38099/C\ Projects/algs/lib/recursion/recursion.h
+  C:/Users/38099/C\ Projects/algs/lib/recursion/recursion.h \
+  C:/Users/38099/C\ Projects/algs/lib/utils/system_extensions.h
 
 CMakeFiles/algs.dir/src/actions/recursion/recursion_actions.c.obj: C:/Users/38099/C\ Projects/algs/src/actions/recursion/recursion_actions.c \
   C:/Users/38099/C\ Projects/algs/src/actions/recursion/factorial/factorial_actions.h \
   C:/Users/38099/C\ Projects/algs/src/actions/recursion/recursion_actions.h \
   C:/Users/38099/C\ Projects/algs/src/actions/recursion/sum_of_list_items/sum_of_list_items_actions.h \
   C:/MinGW/include/_mingw.h \
+  C:/MinGW/include/getopt.h \
+  C:/MinGW/include/io.h \
   C:/MinGW/include/msvcrtver.h \
+  C:/MinGW/include/process.h \
   C:/MinGW/include/sdkddkver.h \
+  C:/MinGW/include/stdint.h \
   C:/MinGW/include/stdio.h \
   C:/MinGW/include/sys/types.h \
+  C:/MinGW/include/sys/types.h \
+  C:/MinGW/include/unistd.h \
   C:/MinGW/include/w32api.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdbool.h \
@@ -209,19 +225,7 @@ CMakeFiles/algs.dir/src/actions/sort/sort_actions.c.obj: C:/Users/38099/C\ Proje
   C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h
 
 CMakeFiles/algs.dir/src/main.c.obj: C:/Users/38099/C\ Projects/algs/src/main.c \
-  C:/Users/38099/C\ Projects/algs/src/actions/main/main_actions.h \
-  C:/MinGW/include/_mingw.h \
-  C:/MinGW/include/msvcrtver.h \
-  C:/MinGW/include/sdkddkver.h \
-  C:/MinGW/include/stdio.h \
-  C:/MinGW/include/stdlib.h \
-  C:/MinGW/include/sys/types.h \
-  C:/MinGW/include/w32api.h \
-  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdarg.h \
-  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stdbool.h \
-  C:/MinGW/lib/gcc/mingw32/6.3.0/include/stddef.h \
-  C:/Users/38099/C\ Projects/algs/lib/data-structures/linked-list.h \
-  C:/Users/38099/C\ Projects/algs/lib/utils/list.h
+  C:/Users/38099/C\ Projects/algs/src/actions/main/main_actions.h
 
 
 C:/MinGW/include/sdkddkver.h:
@@ -229,6 +233,8 @@ C:/MinGW/include/sdkddkver.h:
 C:/Users/38099/C\ Projects/algs/src/actions/data-structure/data_structure_actions.c:
 
 C:/MinGW/include/msvcrtver.h:
+
+C:/MinGW/include/io.h:
 
 C:/Users/38099/C\ Projects/algs/lib/data-structures/linked-list.c:
 
@@ -280,6 +286,8 @@ C:/Users/38099/C\ Projects/algs/lib/utils/system_extensions.c:
 
 C:/Users/38099/C\ Projects/algs/lib/utils/list.c:
 
+C:/MinGW/include/getopt.h:
+
 C:/Users/38099/C\ Projects/algs/lib/utils/system_extensions.h:
 
 C:/Users/38099/C\ Projects/algs/lib/utils/list.h:
@@ -288,13 +296,19 @@ C:/Users/38099/C\ Projects/algs/src/actions/data-structure/data_structure_action
 
 C:/Users/38099/C\ Projects/algs/src/actions/sort/sort_actions.c:
 
+C:/MinGW/include/stdint.h:
+
 C:/Users/38099/C\ Projects/algs/src/actions/data-structure/linked-list/linked_list_actions.h:
 
 C:/Users/38099/C\ Projects/algs/src/actions/sort/sort_actions.h:
 
+C:/MinGW/include/unistd.h:
+
 C:/Users/38099/C\ Projects/algs/src/actions/data-structure/linked-list/linked_list_actions.c:
 
 C:/Users/38099/C\ Projects/algs/src/actions/main/main_actions.h:
+
+C:/MinGW/include/process.h:
 
 C:/Users/38099/C\ Projects/algs/src/actions/recursion/recursion_actions.h:
 

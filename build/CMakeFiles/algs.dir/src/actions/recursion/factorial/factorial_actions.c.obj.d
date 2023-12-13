@@ -8,4 +8,5 @@ CMakeFiles/algs.dir/src/actions/recursion/factorial/factorial_actions.c.obj: \
  c:\mingw\include\sys/types.h \
  c:\mingw\lib\gcc\mingw32\6.3.0\include\stdarg.h \
  c:\mingw\include\stdlib.h \
- c:\users\38099\cproje~2\algs\lib\recursion\recursion.h
+ c:\users\38099\cproje~2\algs\lib\recursion\recursion.h \
+ c:\users\38099\cproje~2\algs\lib\utils\system_extensions.h
