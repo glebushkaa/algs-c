@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/38099/C Projects/algs/lib/sorts/quick_sort.c" "CMakeFiles/algs.dir/lib/sorts/quick_sort.c.obj" "gcc" "CMakeFiles/algs.dir/lib/sorts/quick_sort.c.obj.d"
   "C:/Users/38099/C Projects/algs/lib/sorts/selection_sort.c" "CMakeFiles/algs.dir/lib/sorts/selection_sort.c.obj" "gcc" "CMakeFiles/algs.dir/lib/sorts/selection_sort.c.obj.d"
   "C:/Users/38099/C Projects/algs/lib/utils/list.c" "CMakeFiles/algs.dir/lib/utils/list.c.obj" "gcc" "CMakeFiles/algs.dir/lib/utils/list.c.obj.d"
+  "C:/Users/38099/C Projects/algs/lib/utils/system_extensions.c" "CMakeFiles/algs.dir/lib/utils/system_extensions.c.obj" "gcc" "CMakeFiles/algs.dir/lib/utils/system_extensions.c.obj.d"
   "C:/Users/38099/C Projects/algs/src/actions/data-structure/data_structure_actions.c" "CMakeFiles/algs.dir/src/actions/data-structure/data_structure_actions.c.obj" "gcc" "CMakeFiles/algs.dir/src/actions/data-structure/data_structure_actions.c.obj.d"
   "C:/Users/38099/C Projects/algs/src/actions/data-structure/linked-list/linked_list_actions.c" "CMakeFiles/algs.dir/src/actions/data-structure/linked-list/linked_list_actions.c.obj" "gcc" "CMakeFiles/algs.dir/src/actions/data-structure/linked-list/linked_list_actions.c.obj.d"
   "C:/Users/38099/C Projects/algs/src/actions/main/main_actions.c" "CMakeFiles/algs.dir/src/actions/main/main_actions.c.obj" "gcc" "CMakeFiles/algs.dir/src/actions/main/main_actions.c.obj.d"

@@ -2,11 +2,14 @@
 
 #include <stdbool.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
 
+#include "../data-structure/data_structure_actions.h"
 #include "../recursion/recursion_actions.h"
 #include "../search/search_actions.h"
 #include "../sort/sort_actions.h"
-#include "../data-structure/data_structure_actions.h"
+#include "../lib/utils/system_extensions.h"
 
 enum main_action {
     SEARCHES = 1,
@@ -31,9 +34,10 @@ void start_main_section() {
     print_all_main_actions();
     int action;
     ask_for_main_action(&action);
+    clear_screen();
     int is_programm_finished = handle_main_action(action);
     if (!is_programm_finished) return;
-    printf("\n");
+    clear_screen();
     start_main_section();
 }
 
@@ -79,7 +83,7 @@ bool handle_main_action(enum main_action action) {
 
         default: {
             printf("Action you entered doesn't exist, try again...\n");
-            break;
+            sleep(1);
         }
     }
     return true;

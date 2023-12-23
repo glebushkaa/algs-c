@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 #include "actions/main/main_actions.h"
 
 int main() {

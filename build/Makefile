@@ -272,6 +272,30 @@ lib/utils/list.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/lib/utils/list.c.s
 .PHONY : lib/utils/list.c.s
 
+lib/utils/system_extensions.obj: lib/utils/system_extensions.c.obj
+.PHONY : lib/utils/system_extensions.obj
+
+# target to build an object file
+lib/utils/system_extensions.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/lib/utils/system_extensions.c.obj
+.PHONY : lib/utils/system_extensions.c.obj
+
+lib/utils/system_extensions.i: lib/utils/system_extensions.c.i
+.PHONY : lib/utils/system_extensions.i
+
+# target to preprocess a source file
+lib/utils/system_extensions.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/lib/utils/system_extensions.c.i
+.PHONY : lib/utils/system_extensions.c.i
+
+lib/utils/system_extensions.s: lib/utils/system_extensions.c.s
+.PHONY : lib/utils/system_extensions.s
+
+# target to generate assembly for a file
+lib/utils/system_extensions.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\algs.dir\build.make CMakeFiles/algs.dir/lib/utils/system_extensions.c.s
+.PHONY : lib/utils/system_extensions.c.s
+
 src/actions/data-structure/data_structure_actions.obj: src/actions/data-structure/data_structure_actions.c.obj
 .PHONY : src/actions/data-structure/data_structure_actions.obj
 
@@ -563,6 +587,9 @@ help:
 	@echo ... lib/utils/list.obj
 	@echo ... lib/utils/list.i
 	@echo ... lib/utils/list.s
+	@echo ... lib/utils/system_extensions.obj
+	@echo ... lib/utils/system_extensions.i
+	@echo ... lib/utils/system_extensions.s
 	@echo ... src/actions/data-structure/data_structure_actions.obj
 	@echo ... src/actions/data-structure/data_structure_actions.i
 	@echo ... src/actions/data-structure/data_structure_actions.s

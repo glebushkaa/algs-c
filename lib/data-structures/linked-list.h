@@ -24,7 +24,11 @@ struct LinkedList
 
 struct LinkedList create_list();
 
-void insert(struct LinkedList *list, int value);
+void insert(struct LinkedList *list, int value, int position);
+
+void append(struct LinkedList *list, int value);
+
+void push(struct LinkedList *list, int value);
 
 struct LinkedResult get(struct LinkedList *list, int position);
 

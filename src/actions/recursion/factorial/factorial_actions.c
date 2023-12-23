@@ -4,6 +4,7 @@
 #include <stdlib.h>
 
 #include "../lib/recursion/recursion.h"
+#include "../lib/utils/system_extensions.h"
 
 #define HIGHEST_FACTORIAL_NUMBER 20
 
@@ -14,11 +15,11 @@ void start_factorial_action() {
     if (number > HIGHEST_FACTORIAL_NUMBER) {
         printf(
             "Unfortunately, we can't calculate the factorial of a number that "
-            "is greater than 20\n\n");
-        return;
+            "is greater than 20\n\n\n");
+    } else {
+        long long result = factorial(number);
+        print_colored(6, "Factorial of %i is %lld\n\n\n", number, result);
     }
-    long long result = factorial(number);
-    printf("Factorial of %i is %lld\n\n", number, result);
 }
 
 int ask_number_for_factorial() {

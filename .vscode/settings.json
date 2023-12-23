@@ -13,6 +13,9 @@
         "quick_sort_actions.h": "c",
         "recursion_actions.h": "c",
         "stdlib.h": "c",
-        "data_structure_actions.h": "c"
+        "data_structure_actions.h": "c",
+        "factorial_actions.h": "c",
+        "main_actions.h": "c",
+        "system_extensions.h": "c"
     }
 }
